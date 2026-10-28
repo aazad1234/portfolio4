@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ashley Miller</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6366f1',
+                        secondary: '#14b8a6'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        body { font-family: 'Poppins', sans-serif; }
+        .nav-menu { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .nav-menu.active { transform: translateX(0); }
+        .typewriter { overflow: hidden; border-right: .15em solid #6366f1; white-space: nowrap; margin: 0 auto; letter-spacing: .15em; animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite; }
+        @keyframes typing { from { width: 0 } to { width: 100% } }
+        @keyframes blink-caret { from, to { border-color: transparent } 50% { border-color: #6366f1; } }
+        .skill-progress { transition: stroke-dashoffset 1s ease-in-out; }
+    </style>
+</head>
+<body class="bg-white">
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-['Pacifico'] text-primary">Ashley</a>
+            <button id="menuBtn" class="w-10 h-10 flex items-center justify-center">
+                <i class="ri-menu-line text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div id="navMenu" class="nav-menu fixed top-0 right-0 w-full md:w-80 h-full bg-white shadow-2xl z-50">
+        <div class="p-8">
+            <button id="closeMenu" class="absolute top-6 right-6 w-10 h-10 flex items-center justify-center">
+                <i class="ri-close-line text-2xl"></i>
+            </button>
+            <div class="mt-16 space-y-8">
+                <a href="#home" class="block text-xl hover:text-primary transition-colors">Home</a>
+                <a href="#about" class="block text-xl hover:text-primary transition-colors">About</a>
+                <a href="#portfolio" class="block text-xl hover:text-primary transition-colors">Portfolio</a>
+                <a href="#blog" class="block text-xl hover:text-primary transition-colors">Blog</a>
+                <a href="#contact" class="block text-xl hover:text-primary transition-colors">Contact</a>
+            </div>
+            <div class="absolute bottom-8 left-8 flex space-x-4">
+                <a href="#" class="w-10 h-10 flex items-center justify-center hover:text-primary transition-colors">
+                    <i class="ri-instagram-line text-xl"></i>
+                </a>
+                <a href="#" class="w-10 h-10 flex items-center justify-center hover:text-primary transition-colors">
+                    <i class="ri-twitter-line text-xl"></i>
+                </a>
+                <a href="#" class="w-10 h-10 flex items-center justify-center hover:text-primary transition-colors">
+                    <i class="ri-linkedin-line text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden" style="background-image: url('https://public.readdy.ai/ai/img_res/66e619ecde83190923600f949f348749.jpg'); background-size: cover;">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center text-white">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 typewriter">Ashley Miller</h1>
+            <p class="text-xl md:text-2xl mb-8">Creative Designer & Developer</p>
+            <p class="max-w-2xl mx-auto text-lg mb-12">Crafting digital experiences that blend creativity with functionality. Specialized in UI/UX design and front-end development.</p>
+            <a href="#about" class="inline-flex items-center px-8 py-3 bg-primary text-white rounded-button hover:bg-primary/90 transition-colors">
+                About Me
+                <i class="ri-arrow-right-line ml-2"></i>
+            </a>
+        </div>
+    </section>
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <img src="https://public.readdy.ai/ai/img_res/560d5f5b1f4c8f334799e20be8d17492.jpg" alt="Ashley Miller" class="rounded-lg shadow-xl">
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+                    <p class="text-gray-600 mb-6">With over 8 years of experience in digital design and development, I've had the privilege of working with diverse clients across various industries. My approach combines creative thinking with technical expertise to deliver exceptional digital solutions.</p>
+                    <div class="grid grid-cols-2 gap-6 mb-8">
+                        <div class="skill-container">
+                            <div class="text-center mb-2">UI Design</div>
+                            <div class="relative w-24 h-24 mx-auto">
+                                <svg class="w-full h-full" viewBox="0 0 36 36">
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
+                                    <path class="skill-progress" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#6366f1" stroke-width="3" stroke-dasharray="90, 100"/>
+                                </svg>
+                                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-sm font-semibold">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill-container">
+                            <div class="text-center mb-2">Development</div>
+                            <div class="relative w-24 h-24 mx-auto">
+                                <svg class="w-full h-full" viewBox="0 0 36 36">
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
+                                    <path class="skill-progress" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#6366f1" stroke-width="3" stroke-dasharray="85, 100"/>
+                                </svg>
+                                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-sm font-semibold">85%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="px-8 py-3 bg-primary text-white rounded-button hover:bg-primary/90 transition-colors">
+                        Download CV
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">My Portfolio</h2>
+            <div class="flex justify-center mb-8 space-x-4">
+                <button class="px-6 py-2 rounded-full bg-primary text-white">All</button>
+                <button class="px-6 py-2 rounded-full bg-white hover:bg-primary hover:text-white transition-colors">Design</button>
+                <button class="px-6 py-2 rounded-full bg-white hover:bg-primary hover:text-white transition-colors">Development</button>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group relative overflow-hidden rounded-lg">
+                    <img src="https://public.readdy.ai/ai/img_res/2723b35c9ac10a6c89a2e82eb6b1e5f1.jpg" alt="Project 1" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-primary/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="text-center text-white p-6">
+                            <h3 class="text-xl font-semibold mb-2">E-commerce Website</h3>
+                            <p class="mb-4">UI Design & Development</p>
+                            <a href="#" class="inline-flex items-center text-white hover:underline">
+                                View Project
+                                <i class="ri-arrow-right-line ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat similar portfolio items -->
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Latest Blog Posts</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <article class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://public.readdy.ai/ai/img_res/79c0094f528a6e86cf53e007b420a945.jpg" alt="Blog 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="text-sm text-gray-500 mb-2">March 2, 2025</div>
+                        <h3 class="text-xl font-semibold mb-2">Design Trends 2025</h3>
+                        <p class="text-gray-600 mb-4">Exploring the latest trends in UI/UX design and their impact on user experience.</p>
+                        <a href="#" class="text-primary hover:underline inline-flex items-center">
+                            Read More
+                            <i class="ri-arrow-right-line ml-2"></i>
+                        </a>
+                    </div>
+                </article>
+                <!-- Repeat similar blog posts -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Get in Touch</h2>
+            <div class="max-w-2xl mx-auto">
+                <form id="contactForm" class="space-y-6">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg border-none bg-white focus:ring-2 focus:ring-primary">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg border-none bg-white focus:ring-2 focus:ring-primary">
+                    </div>
+                    <div>
+                        <textarea placeholder="Your Message" rows="6" class="w-full px-4 py-3 rounded-lg border-none bg-white focus:ring-2 focus:ring-primary"></textarea>
+                    </div>
+                    <button type="submit" class="w-full px-8 py-3 bg-primary text-white rounded-button hover:bg-primary/90 transition-colors">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="py-8 border-t">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-center">
+                <div class="text-gray-600">© 2025 Ashley Miller. All rights reserved.</div>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 flex items-center justify-center hover:text-primary transition-colors">
+                        <i class="ri-instagram-line text-xl"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 flex items-center justify-center hover:text-primary transition-colors">
+                        <i class="ri-twitter-line text-xl"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 flex items-center justify-center hover:text-primary transition-colors">
+                        <i class="ri-linkedin-line text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const closeMenu = document.getElementById('closeMenu');
+        const navMenu = document.getElementById('navMenu');
+        
+        menuBtn.addEventListener('click', () => {
+            navMenu.classList.add('active');
+        });
+        
+        closeMenu.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+        });
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                navMenu.classList.remove('active');
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const formData = new FormData(contactForm);
+            // Handle form submission
+        });
+    </script>
+</body>
+</html>
