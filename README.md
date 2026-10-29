@@ -2,14 +2,14 @@
 
 A high-converting, human-centered executive sales portfolio designed for a Strategic Enterprise Account Executive & Revenue Director (`portfolio4`).
 
-## 🎨 Brand Identity & Color Palette
+## Brand Identity & Color Palette
 - **Primary Background (`--bg-base`):** `#F5F5F0` (Luxury warm stone / natural linen)
 - **Secondary Accent (`--color-secondary`):** `#D97D55` (Terracotta / burnt copper)
 - **Deep Contrast Typography (`--text-ink`):** `#1C1917` (Stone 900 espresso ink, 11:1+ contrast ratio)
 - **Card Surfaces (`--bg-card`):** `#FFFFFF` (Crisp white cards)
 - **Subtle Containers (`--bg-alt`):** `#EBEAE3`
 
-## 👤 Personal Voice & "Speaking About Themselves" Highlights
+## Personal Voice & "Speaking About Themselves" Highlights
 1. **Executive Hero with Authentic Portrait:**
    - Features high-resolution executive portrait of **Ashley Miller** with floating verified achievement badges.
    - First-person executive pitch: *"I don't pitch features. I partner with Fortune 500 executives to solve multi-million dollar bottlenecks."*
@@ -23,9 +23,9 @@ A high-converting, human-centered executive sales portfolio designed for a Strat
    - **My Closing Philosophy ("Why I Refuse Discounting & Hope-Based Selling"):**
      - Detailed explanation of CFO value engineering and margin preservation.
    - **The Team Mentality & "Beyond the Quota":**
-     - 🏃‍♀️ Marathon runner (mental stamina mirroring 12-month deal cycles).
-     - 🤝 Volunteer sales mentor for *Women in Revenue*.
-     - 📖 Lifelong student of behavioral economics and distributed systems.
+     - Marathon runner (mental stamina mirroring 12-month deal cycles).
+     - Volunteer sales mentor for *Women in Revenue*.
+     - Lifelong student of behavioral economics and distributed systems.
    - **Personal SVG Signature Graphic:**
      - Elegant handwritten signature with title badge.
 
