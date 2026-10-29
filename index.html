@@ -1,3478 +1,840 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ashley Miller — Enterprise Sales Leader & Strategic AE</title>
-  <meta name="description" content="Meet Ashley Miller, Enterprise Sales Leader & Strategic Account Executive with 10+ years driving $48.5M+ in closed ARR, 154% average quota attainment, and 5x President's Club honors.">
-  <meta name="keywords" content="Ashley Miller, Enterprise Sales Leader, Strategic Account Executive, SaaS Sales, MEDDPICC, B2B Tech Revenue, VP of Sales">
-  <meta name="author" content="Ashley Miller">
-  
-  <!-- OpenGraph / Social Meta Tags -->
-  <meta property="og:type" content="profile">
-  <meta property="og:title" content="Ashley Miller — Enterprise Sales Leader & Strategic AE">
-  <meta property="og:description" content="Meet Ashley Miller: Closing 7-figure enterprise contracts, scaling high-velocity ARR engines, and mentoring the next generation of sales talent.">
-  <meta property="og:image" content="assets/images/og-image.png">
-  <meta property="og:url" content="https://ashleymiller.sales">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ashley Miller — Enterprise Sales Leader">
-  <meta name="twitter:description" content="Meet Ashley Miller: $48.5M+ Closed ARR · 154% Quota · MEDDPICC & Value Selling.">
-  <meta name="twitter:image" content="assets/images/og-image.png">
-  
-  <!-- Favicon & Icons -->
-  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
-  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-  <link rel="manifest" href="site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ashley Miller – Enterprise Sales Leader</title>
+  <meta name="description"
+    content="Ashley Miller: enterprise sales leader with $48.5M closed ARR, 154% average quota attainment and five President’s Club awards.">
   <meta name="theme-color" content="#D97D55">
-
   <style>
-    /* CSS Custom Properties & Design System */
     :root {
-      --bg-base: #F5F5F0;
-      --bg-alt: #EBEAE3;
-      --bg-card: #FFFFFF;
-      --bg-card-hover: #FCFCF9;
-      --bg-accent-subtle: #F7E8E1;
-      --bg-accent-soft: rgba(217, 125, 85, 0.08);
-
-      --color-secondary: #D97D55;
-      --color-secondary-hover: #C4673F;
-      --color-secondary-dark: #A84E29;
-      --color-secondary-border: rgba(217, 125, 85, 0.28);
-      
-      --text-ink: #1C1917;
-      --text-muted: #57534E;
-      --text-subtle: #78716C;
-      --text-light: #F5F5F0;
-
-      --border-light: rgba(28, 25, 23, 0.08);
-      --border-card: rgba(28, 25, 23, 0.1);
-      --border-focus: #D97D55;
-
-      --shadow-sm: 0 1px 3px rgba(28, 25, 23, 0.04), 0 1px 2px rgba(28, 25, 23, 0.03);
-      --shadow-md: 0 4px 12px rgba(28, 25, 23, 0.05), 0 2px 4px rgba(28, 25, 23, 0.03);
-      --shadow-lg: 0 12px 28px rgba(28, 25, 23, 0.08), 0 4px 10px rgba(28, 25, 23, 0.04);
-      --shadow-accent: 0 8px 24px rgba(217, 125, 85, 0.22);
-
-      --radius-sm: 6px;
-      --radius-md: 10px;
-      --radius-lg: 16px;
-      --radius-xl: 22px;
-      --radius-full: 9999px;
-
-      --transition-fast: 0.18s ease;
-      --transition-smooth: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      --bg: #fff;
+      --alt: #F8F7F4;
+      --card: #fff;
+      --accent: #D97D55;
+      --accent-d: #A84E29;
+      --accent-soft: #F7E8E1;
+      --ink: #1C1917;
+      --muted: #57534E;
+      --subtle: #78716C;
+      --line: rgba(28, 25, 23, .12);
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --serif: Georgia, "Times New Roman", serif;
+      box-sizing: border-box;
+      padding-top: env(safe-area-inset-top, 0px);
+      padding-bottom: env(safe-area-inset-bottom, 0px)
     }
 
-    /* Base Reset & Typography */
-    *, *::before, *::after {
+    :root {
+      color-scheme: light
+    }
+
+    *,
+    *::before,
+    *::after {
       box-sizing: border-box;
       margin: 0;
-      padding: 0;
+      padding: 0
     }
 
     html {
       scroll-behavior: smooth;
-      font-size: 16px;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      background-color: var(--bg-base);
-      color: var(--text-ink);
+      scroll-padding-top: calc(72px + env(safe-area-inset-top, 0px));
+      -webkit-font-smoothing: antialiased
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      background-color: var(--bg-base);
-      color: var(--text-ink);
-      overflow-x: hidden;
-    }
-
-    .font-serif {
-      font-family: "Georgia", "Times New Roman", serif;
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.65;
+      overflow-x: hidden
     }
 
     a {
       color: inherit;
-      text-decoration: none;
+      text-decoration: none
     }
 
-    button {
-      font-family: inherit;
-      border: none;
-      background: none;
-      cursor: pointer;
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 4px
     }
 
-    /* Top Live Availability Banner */
-    .top-banner {
-      background-color: var(--text-ink);
-      color: var(--bg-base);
-      font-size: 0.8125rem;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      padding: 0.55rem 1rem;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.65rem;
-      flex-wrap: wrap;
-    }
-
-    .status-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background-color: #10B981;
-      display: inline-block;
-      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25);
-      animation: pulse-dot 2s infinite;
-    }
-
-    @keyframes pulse-dot {
-      0%, 100% { transform: scale(1); opacity: 1; }
-      50% { transform: scale(1.15); opacity: 0.8; }
-    }
-
-    /* Container */
-    .container {
-      width: 100%;
-      max-width: 1240px;
+    .wrap {
+      max-width: 1080px;
       margin: 0 auto;
-      padding: 0 1.5rem;
+      padding: 0 1.5rem
     }
 
-    /* Header & Navigation */
-    .site-header {
+    .serif {
+      font-family: var(--serif)
+    }
+
+    /* header */
+    header {
       position: sticky;
-      top: 0;
-      z-index: 100;
-      background-color: rgba(245, 245, 240, 0.94);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      border-bottom: 1px solid var(--border-light);
-      transition: box-shadow var(--transition-fast);
-    }
-
-    .header-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 74px;
-    }
-
-    .brand-wrap {
-      display: flex;
-      align-items: center;
-      gap: 0.85rem;
-      font-weight: 700;
-      letter-spacing: -0.01em;
-    }
-
-    .brand-avatar-mini {
-      width: 42px;
-      height: 42px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid var(--color-secondary);
-      box-shadow: var(--shadow-sm);
-    }
-
-    .brand-text {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .brand-name {
-      font-size: 1.125rem;
-      font-weight: 800;
-      color: var(--text-ink);
-      line-height: 1.2;
-    }
-
-    .brand-title {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--color-secondary);
-      font-weight: 700;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 1.75rem;
-      list-style: none;
-    }
-
-    .nav-link {
-      font-size: 0.925rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      transition: color var(--transition-fast);
-      position: relative;
-    }
-
-    .nav-link:hover, .nav-link.active {
-      color: var(--text-ink);
-    }
-
-    .nav-link.active::after {
-      content: '';
-      position: absolute;
-      bottom: -6px;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background-color: var(--color-secondary);
-      border-radius: var(--radius-full);
-    }
-
-    .header-actions {
-      display: flex;
-      align-items: center;
-      gap: 0.85rem;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-      padding: 0.72rem 1.35rem;
-      font-size: 0.925rem;
-      font-weight: 700;
-      border-radius: var(--radius-md);
-      transition: all var(--transition-fast);
-      cursor: pointer;
-      line-height: 1;
-      text-align: center;
-    }
-
-    .btn-secondary {
-      background-color: var(--color-secondary);
-      color: #FFFFFF;
-      box-shadow: 0 2px 6px rgba(217, 125, 85, 0.28);
-    }
-
-    .btn-secondary:hover {
-      background-color: var(--color-secondary-hover);
-      box-shadow: var(--shadow-accent);
-      transform: translateY(-1px);
-    }
-
-    .btn-outline {
-      background-color: transparent;
-      color: var(--text-ink);
-      border: 1.5px solid var(--border-card);
-    }
-
-    .btn-outline:hover {
-      background-color: var(--bg-card);
-      border-color: var(--color-secondary);
-      color: var(--color-secondary);
-      transform: translateY(-1px);
-    }
-
-    .btn-sm {
-      padding: 0.5rem 0.95rem;
-      font-size: 0.825rem;
-      border-radius: var(--radius-sm);
-    }
-
-    .menu-toggle {
-      display: none;
-      padding: 0.5rem;
-      color: var(--text-ink);
-    }
-
-    /* Mobile Drawer */
-    .mobile-drawer {
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 320px;
-      height: 100vh;
-      background-color: var(--bg-card);
-      z-index: 999;
-      box-shadow: var(--shadow-lg);
-      transform: translateX(100%);
-      transition: transform var(--transition-smooth);
-      padding: 2rem 1.5rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .mobile-drawer.open {
-      transform: translateX(0);
-    }
-
-    .drawer-backdrop {
-      position: fixed;
-      inset: 0;
-      background: rgba(28, 25, 23, 0.4);
-      z-index: 998;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity var(--transition-fast);
-    }
-
-    .drawer-backdrop.open {
-      opacity: 1;
-      pointer-events: auto;
-    }
-
-    /* Hero Section */
-    .hero-section {
-      padding: 4.5rem 0 3.5rem;
-      position: relative;
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 1fr;
-      gap: 3.5rem;
-      align-items: center;
-    }
-
-    .eyebrow-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.4rem 0.95rem;
-      background-color: var(--bg-accent-subtle);
-      color: var(--color-secondary-dark);
-      border: 1px solid var(--color-secondary-border);
-      border-radius: var(--radius-full);
-      font-size: 0.8125rem;
-      font-weight: 700;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      margin-bottom: 1.35rem;
-    }
-
-    .hero-title {
-      font-size: clamp(2.35rem, 4.2vw, 3.65rem);
-      font-weight: 800;
-      line-height: 1.14;
-      letter-spacing: -0.025em;
-      color: var(--text-ink);
-      margin-bottom: 1.25rem;
-    }
-
-    .hero-title span.accent-highlight {
-      color: var(--color-secondary);
-      position: relative;
-      display: inline-block;
-    }
-
-    .hero-desc {
-      font-size: 1.15rem;
-      line-height: 1.65;
-      color: var(--text-muted);
-      margin-bottom: 1.75rem;
-      max-width: 590px;
-    }
-
-    .personal-quote-banner {
-      background-color: var(--bg-card);
-      border-left: 4px solid var(--color-secondary);
-      padding: 1.15rem 1.35rem;
-      border-radius: 0 var(--radius-md) var(--radius-md) 0;
-      font-size: 0.95rem;
-      color: var(--text-ink);
-      font-style: italic;
-      margin-bottom: 2rem;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .personal-quote-author {
-      display: block;
-      font-style: normal;
-      font-size: 0.78125rem;
-      font-weight: 800;
-      color: var(--color-secondary);
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      margin-top: 0.5rem;
-    }
-
-    .hero-ctas {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 1rem;
-      margin-bottom: 2rem;
-    }
-
-    .email-copy-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.65rem;
-      padding: 0.65rem 1rem;
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-md);
-      font-size: 0.875rem;
-      font-weight: 600;
-      color: var(--text-ink);
-      cursor: pointer;
-      transition: all var(--transition-fast);
-    }
-
-    .email-copy-chip:hover {
-      border-color: var(--color-secondary);
-      background-color: var(--bg-card-hover);
-    }
-
-    .copy-status {
-      font-size: 0.75rem;
-      color: var(--color-secondary);
-      font-weight: 700;
-    }
-
-    /* Hero Right: Human Portrait Presentation Card */
-    .portrait-stage-card {
-      position: relative;
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-xl);
-      padding: 1.25rem;
-      box-shadow: var(--shadow-lg);
-    }
-
-    .portrait-img-wrap {
-      position: relative;
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      aspect-ratio: 4 / 5;
-      background-color: #E7E6DF;
-    }
-
-    .portrait-img-wrap img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center 20%;
-      display: block;
-      transition: transform 0.4s ease;
-    }
-
-    .portrait-stage-card:hover .portrait-img-wrap img {
-      transform: scale(1.02);
-    }
-
-    /* Floating badges over portrait */
-    .floating-badge {
-      position: absolute;
-      background-color: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-md);
-      padding: 0.65rem 0.95rem;
-      box-shadow: var(--shadow-md);
-      display: flex;
-      align-items: center;
-      gap: 0.65rem;
-      font-size: 0.8125rem;
-      font-weight: 700;
-      color: var(--text-ink);
+      top: env(safe-area-inset-top, 0px);
       z-index: 10;
+      background: color-mix(in srgb, var(--bg) 92%, transparent);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--line)
     }
 
-    .floating-badge.top-right {
-      top: 1.25rem;
-      right: 1.25rem;
-    }
-
-    .floating-badge.bottom-left {
-      bottom: 1.25rem;
-      left: 1.25rem;
-    }
-
-    .badge-indicator {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background-color: var(--color-secondary);
-      flex-shrink: 0;
-    }
-
-    /* Under Portrait Quick Stats Strip */
-    .under-portrait-stats {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 0.85rem;
-      margin-top: 1rem;
-    }
-
-    .portrait-mini-stat {
-      background-color: var(--bg-base);
-      border: 1px solid var(--border-light);
-      border-radius: var(--radius-md);
-      padding: 0.85rem 0.65rem;
-      text-align: center;
-    }
-
-    .portrait-mini-val {
-      font-size: 1.35rem;
-      font-weight: 800;
-      color: var(--color-secondary);
-      line-height: 1;
-      margin-bottom: 0.25rem;
-    }
-
-    .portrait-mini-lbl {
-      font-size: 0.7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: var(--text-subtle);
-      letter-spacing: 0.04em;
-    }
-
-    /* Dedicated "Meet Ashley / In My Own Words" Section */
-    .about-me-section {
-      padding: 5.5rem 0;
-      background-color: var(--bg-alt);
-      border-top: 1px solid var(--border-light);
-      border-bottom: 1px solid var(--border-light);
-    }
-
-    .about-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.35fr;
-      gap: 3.5rem;
-      align-items: flex-start;
-    }
-
-    /* Interactive Voice Note / Audio Introduction Player */
-    .voice-intro-card {
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-xl);
-      padding: 2.25rem 2rem;
-      box-shadow: var(--shadow-md);
-      position: sticky;
-      top: 96px;
-    }
-
-    .voice-intro-header {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .voice-intro-avatar {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid var(--color-secondary);
-    }
-
-    .audio-player-box {
-      background-color: var(--bg-base);
-      border: 1px solid var(--border-light);
-      border-radius: var(--radius-lg);
-      padding: 1.35rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .audio-controls-row {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      margin-bottom: 1rem;
-    }
-
-    .play-audio-btn {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background-color: var(--color-secondary);
-      color: #FFFFFF;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 12px rgba(217, 125, 85, 0.35);
-      transition: all var(--transition-fast);
-      cursor: pointer;
-      flex-shrink: 0;
-    }
-
-    .play-audio-btn:hover {
-      background-color: var(--color-secondary-hover);
-      transform: scale(1.05);
-    }
-
-    .waveform-visualizer {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      flex-grow: 1;
-      height: 36px;
-    }
-
-    .wave-bar {
-      width: 4px;
-      height: 12px;
-      background-color: #D4D2C9;
-      border-radius: var(--radius-full);
-      transition: height 0.2s ease, background-color 0.2s ease;
-    }
-
-    .audio-player-box.playing .wave-bar {
-      background-color: var(--color-secondary);
-      animation: wave-anim 1s infinite alternate;
-    }
-
-    .audio-player-box.playing .wave-bar:nth-child(2) { animation-delay: 0.15s; }
-    .audio-player-box.playing .wave-bar:nth-child(3) { animation-delay: 0.3s; }
-    .audio-player-box.playing .wave-bar:nth-child(4) { animation-delay: 0.45s; }
-    .audio-player-box.playing .wave-bar:nth-child(5) { animation-delay: 0.2s; }
-    .audio-player-box.playing .wave-bar:nth-child(6) { animation-delay: 0.35s; }
-    .audio-player-box.playing .wave-bar:nth-child(7) { animation-delay: 0.1s; }
-    .audio-player-box.playing .wave-bar:nth-child(8) { animation-delay: 0.4s; }
-    .audio-player-box.playing .wave-bar:nth-child(9) { animation-delay: 0.25s; }
-    .audio-player-box.playing .wave-bar:nth-child(10) { animation-delay: 0.5s; }
-
-    @keyframes wave-anim {
-      0% { height: 8px; }
-      100% { height: 32px; }
-    }
-
-    .audio-time-label {
-      font-size: 0.78125rem;
-      font-weight: 700;
-      color: var(--text-subtle);
-      font-variant-numeric: tabular-nums;
-    }
-
-    .transcript-box {
-      font-size: 0.875rem;
-      color: var(--text-muted);
-      line-height: 1.6;
-      background-color: var(--bg-card);
-      border-radius: var(--radius-md);
-      padding: 1rem;
-      border: 1px dashed var(--border-card);
-    }
-
-    /* Personal Story Blocks */
-    .story-block {
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-xl);
-      padding: 2.5rem;
-      margin-bottom: 2rem;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .story-eyebrow {
-      font-size: 0.78125rem;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--color-secondary);
-      margin-bottom: 0.5rem;
-      display: block;
-    }
-
-    .story-title {
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--text-ink);
-      line-height: 1.25;
-      margin-bottom: 1rem;
-    }
-
-    .story-p {
-      font-size: 1rem;
-      color: var(--text-muted);
-      line-height: 1.7;
-      margin-bottom: 1.25rem;
-    }
-
-    .story-p:last-child {
-      margin-bottom: 0;
-    }
-
-    /* Human / Beyond Quota Grid */
-    .beyond-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.25rem;
-      margin-top: 1.5rem;
-    }
-
-    .beyond-card {
-      background-color: var(--bg-base);
-      border: 1px solid var(--border-light);
-      border-radius: var(--radius-md);
-      padding: 1.25rem;
-    }
-
-    .beyond-icon {
-      font-size: 1.65rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .beyond-heading {
-      font-size: 0.925rem;
-      font-weight: 800;
-      color: var(--text-ink);
-      margin-bottom: 0.35rem;
-    }
-
-    .beyond-desc {
-      font-size: 0.8125rem;
-      color: var(--text-muted);
-      line-height: 1.5;
-    }
-
-    /* Handwritten Signature */
-    .signature-wrap {
-      display: flex;
-      align-items: center;
-      gap: 1.25rem;
-      margin-top: 2rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border-light);
-    }
-
-    .signature-svg {
-      height: 48px;
-      color: var(--color-secondary);
-    }
-
-    .signature-caption {
-      font-size: 0.8125rem;
-      color: var(--text-subtle);
-    }
-
-    /* Sectors & Trust Bar */
-    .sectors-bar {
-      padding: 2.25rem 0;
-      border-top: 1px solid var(--border-light);
-      border-bottom: 1px solid var(--border-light);
-      background-color: rgba(245, 245, 240, 0.6);
-      margin-bottom: 4.5rem;
-    }
-
-    .sectors-title {
-      text-align: center;
-      font-size: 0.78125rem;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--text-subtle);
-      margin-bottom: 1.35rem;
-    }
-
-    .sectors-grid {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: 1.25rem 2.5rem;
-    }
-
-    .sector-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.55rem;
-      font-size: 0.875rem;
-      font-weight: 700;
-      color: var(--text-muted);
-      padding: 0.45rem 0.95rem;
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-light);
-      border-radius: var(--radius-md);
-      transition: all var(--transition-fast);
-    }
-
-    .sector-badge:hover {
-      color: var(--color-secondary);
-      border-color: var(--color-secondary-border);
-    }
-
-    .sector-badge svg {
-      color: var(--color-secondary);
-    }
-
-    /* Section Headers */
-    .section-header {
-      text-align: center;
-      max-width: 720px;
-      margin: 0 auto 3.5rem;
-    }
-
-    .section-eyebrow {
-      font-size: 0.8125rem;
-      font-weight: 800;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--color-secondary);
-      margin-bottom: 0.65rem;
-      display: block;
-    }
-
-    .section-title {
-      font-size: clamp(1.85rem, 3.2vw, 2.65rem);
-      font-weight: 800;
-      line-height: 1.2;
-      color: var(--text-ink);
-      margin-bottom: 1rem;
-      letter-spacing: -0.02em;
-    }
-
-    .section-desc {
-      font-size: 1.05rem;
-      color: var(--text-muted);
-      line-height: 1.6;
-    }
-
-    /* Value Pillars Section */
-    .pillars-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-      margin-bottom: 5.5rem;
-    }
-
-    .pillar-card {
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-lg);
-      padding: 2.25rem 1.85rem;
-      box-shadow: var(--shadow-sm);
-      transition: all var(--transition-smooth);
-      position: relative;
-    }
-
-    .pillar-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-md);
-      border-color: var(--color-secondary-border);
-    }
-
-    .pillar-icon {
-      width: 52px;
-      height: 52px;
-      border-radius: var(--radius-md);
-      background-color: var(--bg-accent-subtle);
-      color: var(--color-secondary);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 1.35rem;
-    }
-
-    .pillar-title {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--text-ink);
-      margin-bottom: 0.75rem;
-    }
-
-    .pillar-desc {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      line-height: 1.6;
-      margin-bottom: 1.25rem;
-    }
-
-    .pillar-bullets {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      border-top: 1px solid var(--border-light);
-      padding-top: 1rem;
-    }
-
-    .pillar-bullet {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--text-ink);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .pillar-bullet svg {
-      color: var(--color-secondary);
-      flex-shrink: 0;
-    }
-
-    /* Deal Deconstructions (Portfolio of Closed Deals) */
-    .deals-section {
-      padding: 5rem 0;
-      background-color: var(--bg-base);
-    }
-
-    .deal-filter-bar {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 0.65rem;
-      margin-bottom: 2.75rem;
-    }
-
-    .filter-btn {
-      padding: 0.55rem 1.15rem;
-      border-radius: var(--radius-full);
-      font-size: 0.875rem;
-      font-weight: 700;
-      background-color: var(--bg-card);
-      color: var(--text-muted);
-      border: 1px solid var(--border-card);
-      transition: all var(--transition-fast);
-      cursor: pointer;
-    }
-
-    .filter-btn:hover {
-      color: var(--text-ink);
-      border-color: var(--color-secondary);
-    }
-
-    .filter-btn.active {
-      background-color: var(--color-secondary);
-      color: #FFFFFF;
-      border-color: var(--color-secondary);
-      box-shadow: 0 2px 8px rgba(217, 125, 85, 0.3);
-    }
-
-    .deals-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-      margin-bottom: 3rem;
-    }
-
-    .deal-card {
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-lg);
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      box-shadow: var(--shadow-sm);
-      transition: all var(--transition-smooth);
-    }
-
-    .deal-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-md);
-      border-color: var(--color-secondary-border);
-    }
-
-    .deal-top {
-      margin-bottom: 1.25rem;
-    }
-
-    .deal-meta-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 0.85rem;
-    }
-
-    .deal-category-pill {
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--color-secondary);
-      background-color: var(--bg-accent-subtle);
-      padding: 0.25rem 0.65rem;
-      border-radius: var(--radius-full);
-    }
-
-    .deal-cycle {
-      font-size: 0.78125rem;
-      font-weight: 600;
-      color: var(--text-subtle);
-    }
-
-    .deal-title {
-      font-size: 1.35rem;
-      font-weight: 800;
-      color: var(--text-ink);
-      line-height: 1.25;
-      margin-bottom: 0.5rem;
-    }
-
-    .deal-value-row {
-      display: flex;
-      align-items: baseline;
-      gap: 0.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .deal-acv {
-      font-size: 1.75rem;
-      font-weight: 800;
-      color: var(--color-secondary);
-      line-height: 1;
-    }
-
-    .deal-contract-type {
-      font-size: 0.8125rem;
-      font-weight: 600;
-      color: var(--text-subtle);
-    }
-
-    .deal-desc {
-      font-size: 0.925rem;
-      color: var(--text-muted);
-      line-height: 1.55;
-      margin-bottom: 1.25rem;
-    }
-
-    .deal-stats-strip {
-      background-color: var(--bg-base);
-      border-radius: var(--radius-md);
-      padding: 0.85rem;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0.75rem;
-      margin-bottom: 1.5rem;
-      border: 1px solid var(--border-light);
-    }
-
-    .deal-stat-item {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .deal-stat-lbl {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: var(--text-subtle);
-      letter-spacing: 0.05em;
-    }
-
-    .deal-stat-val {
-      font-size: 0.875rem;
-      font-weight: 700;
-      color: var(--text-ink);
-    }
-
-    .deal-action-btn {
-      width: 100%;
-      padding: 0.65rem;
-      background-color: transparent;
-      border: 1.5px solid var(--border-card);
-      border-radius: var(--radius-md);
-      color: var(--text-ink);
-      font-size: 0.85rem;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-      transition: all var(--transition-fast);
-      cursor: pointer;
-    }
-
-    .deal-action-btn:hover {
-      background-color: var(--color-secondary);
-      border-color: var(--color-secondary);
-      color: #FFFFFF;
-    }
-
-    /* Sales Methodology Section */
-    .methodology-section {
-      padding: 5.5rem 0;
-      background-color: var(--bg-alt);
-      border-top: 1px solid var(--border-light);
-      border-bottom: 1px solid var(--border-light);
-    }
-
-    .methodology-tabs {
-      display: flex;
-      justify-content: center;
-      gap: 0.75rem;
-      margin-bottom: 2.75rem;
-      flex-wrap: wrap;
-    }
-
-    .methodology-tab {
-      padding: 0.75rem 1.45rem;
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-md);
-      font-size: 0.925rem;
-      font-weight: 700;
-      color: var(--text-muted);
-      cursor: pointer;
-      transition: all var(--transition-fast);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .methodology-tab:hover {
-      color: var(--text-ink);
-      border-color: var(--color-secondary);
-    }
-
-    .methodology-tab.active {
-      background-color: var(--color-secondary);
-      color: #FFFFFF;
-      border-color: var(--color-secondary);
-      box-shadow: 0 4px 14px rgba(217, 125, 85, 0.28);
-    }
-
-    .methodology-panel {
-      display: none;
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-xl);
-      padding: 3rem;
-      box-shadow: var(--shadow-lg);
-    }
-
-    .methodology-panel.active {
-      display: block;
-      animation: fadeIn 0.3s ease-in-out;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(6px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .meddpicc-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 1.5rem;
-      margin-top: 2rem;
-    }
-
-    .meddpicc-item {
-      background-color: var(--bg-base);
-      border: 1px solid var(--border-light);
-      border-radius: var(--radius-md);
-      padding: 1.35rem;
-      position: relative;
-    }
-
-    .meddpicc-letter {
-      font-size: 2.15rem;
-      font-weight: 900;
-      color: var(--color-secondary);
-      line-height: 1;
-      margin-bottom: 0.35rem;
-    }
-
-    .meddpicc-name {
-      font-size: 0.95rem;
-      font-weight: 800;
-      color: var(--text-ink);
-      margin-bottom: 0.45rem;
-    }
-
-    .meddpicc-desc {
-      font-size: 0.8125rem;
-      color: var(--text-muted);
-      line-height: 1.5;
-    }
-
-    /* Interactive Revenue Lift / ROI Simulator */
-    .calculator-section {
-      padding: 5.5rem 0;
-      background-color: var(--bg-base);
-    }
-
-    .calc-box {
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-xl);
-      box-shadow: var(--shadow-lg);
-      padding: 3rem;
-      display: grid;
-      grid-template-columns: 1.15fr 0.95fr;
-      gap: 3.5rem;
-      align-items: center;
-    }
-
-    .calc-slider-group {
-      margin-bottom: 1.85rem;
-    }
-
-    .calc-slider-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 0.65rem;
-    }
-
-    .calc-label {
-      font-size: 0.925rem;
-      font-weight: 700;
-      color: var(--text-ink);
-    }
-
-    .calc-value-display {
-      font-size: 1.05rem;
-      font-weight: 800;
-      color: var(--color-secondary);
-    }
-
-    .custom-range {
-      width: 100%;
-      height: 8px;
-      -webkit-appearance: none;
-      background: #E5E4DC;
-      border-radius: var(--radius-full);
-      outline: none;
-      cursor: pointer;
-    }
-
-    .custom-range::-webkit-slider-thumb {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      background: var(--color-secondary);
-      cursor: pointer;
-      border: 3px solid #FFFFFF;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-      transition: transform var(--transition-fast);
-    }
-
-    .custom-range::-webkit-slider-thumb:hover {
-      transform: scale(1.15);
-    }
-
-    .calc-results-card {
-      background-color: var(--bg-base);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-lg);
-      padding: 2.25rem 2rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-
-    .calc-result-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid var(--border-light);
-    }
-
-    .calc-result-row:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-
-    .calc-res-label {
-      font-size: 0.875rem;
-      font-weight: 600;
-      color: var(--text-muted);
-    }
-
-    .calc-res-val {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: var(--text-ink);
-    }
-
-    .calc-res-val.highlight {
-      font-size: 1.85rem;
-      color: var(--color-secondary);
-    }
-
-    /* Career Milestones Timeline */
-    .timeline-section {
-      padding: 5rem 0;
-      background-color: var(--bg-alt);
-      border-top: 1px solid var(--border-light);
-    }
-
-    .timeline-list {
-      max-width: 820px;
-      margin: 0 auto;
-      position: relative;
-      padding-left: 2.5rem;
-    }
-
-    .timeline-list::before {
-      content: '';
-      position: absolute;
-      left: 11px;
-      top: 10px;
-      bottom: 20px;
-      width: 2px;
-      background-color: var(--color-secondary-border);
-    }
-
-    .timeline-item {
-      position: relative;
-      margin-bottom: 2.75rem;
-    }
-
-    .timeline-item:last-child {
-      margin-bottom: 0;
-    }
-
-    .timeline-dot {
-      position: absolute;
-      left: -2.5rem;
-      top: 5px;
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      background-color: var(--bg-card);
-      border: 3px solid var(--color-secondary);
-      box-shadow: 0 0 0 4px var(--bg-accent-subtle);
-    }
-
-    .timeline-card {
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-md);
-      padding: 1.75rem;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .timeline-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 0.75rem;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-
-    .timeline-role {
-      font-size: 1.25rem;
-      font-weight: 800;
-      color: var(--text-ink);
-    }
-
-    .timeline-company {
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: var(--color-secondary);
-    }
-
-    .timeline-period {
-      font-size: 0.8125rem;
-      font-weight: 700;
-      color: var(--text-subtle);
-      background-color: var(--bg-base);
-      padding: 0.25rem 0.65rem;
-      border-radius: var(--radius-full);
-      border: 1px solid var(--border-light);
-    }
-
-    .timeline-highlights {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      margin-top: 1rem;
-    }
-
-    .timeline-highlight-item {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      display: flex;
-      align-items: flex-start;
-      gap: 0.6rem;
-      line-height: 1.5;
-    }
-
-    .timeline-highlight-item svg {
-      color: var(--color-secondary);
-      flex-shrink: 0;
-      margin-top: 3px;
-    }
-
-    /* Executive Testimonials */
-    .testimonials-section {
-      padding: 5.5rem 0;
-      background-color: var(--bg-base);
-    }
-
-    .testimonials-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-    }
-
-    .testimonial-card {
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-lg);
-      padding: 2.25rem 2rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .quote-icon {
-      color: var(--color-secondary);
-      opacity: 0.4;
-      margin-bottom: 1rem;
-    }
-
-    .quote-text {
-      font-size: 0.95rem;
-      line-height: 1.65;
-      color: var(--text-ink);
-      font-style: italic;
-      margin-bottom: 1.75rem;
-    }
-
-    .quote-author {
-      display: flex;
-      align-items: center;
-      gap: 0.85rem;
-      border-top: 1px solid var(--border-light);
-      padding-top: 1.25rem;
-    }
-
-    .author-avatar-img {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid var(--color-secondary-border);
-    }
-
-    .author-name {
-      font-size: 0.925rem;
-      font-weight: 800;
-      color: var(--text-ink);
-      line-height: 1.2;
-    }
-
-    .author-role {
-      font-size: 0.78125rem;
-      color: var(--text-subtle);
-    }
-
-    /* Contact & Meeting Booking Section */
-    .contact-section {
-      padding: 5.5rem 0;
-      background-color: var(--bg-alt);
-      border-top: 1px solid var(--border-light);
-    }
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.2fr;
-      gap: 3.5rem;
-      align-items: flex-start;
-    }
-
-    .contact-info-card {
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-xl);
-      padding: 2.5rem;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .info-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 1rem;
-      margin-bottom: 1.75rem;
-    }
-
-    .info-icon {
-      width: 42px;
-      height: 42px;
-      border-radius: var(--radius-md);
-      background-color: var(--bg-accent-subtle);
-      color: var(--color-secondary);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .info-title {
-      font-size: 0.8125rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--text-subtle);
-      margin-bottom: 0.2rem;
-    }
-
-    .info-val {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--text-ink);
-    }
-
-    .contact-form-card {
-      background-color: var(--bg-card);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-xl);
-      padding: 2.75rem 2.5rem;
-      box-shadow: var(--shadow-lg);
-    }
-
-    .form-group {
-      margin-bottom: 1.35rem;
-    }
-
-    .form-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.25rem;
-    }
-
-    .form-label {
-      display: block;
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: var(--text-ink);
-      margin-bottom: 0.45rem;
-    }
-
-    .form-input, .form-select, .form-textarea {
-      width: 100%;
-      padding: 0.8rem 1rem;
-      font-size: 0.925rem;
-      font-family: inherit;
-      color: var(--text-ink);
-      background-color: var(--bg-base);
-      border: 1px solid var(--border-card);
-      border-radius: var(--radius-md);
-      transition: all var(--transition-fast);
-      outline: none;
-    }
-
-    .form-input:focus, .form-select:focus, .form-textarea:focus {
-      background-color: #FFFFFF;
-      border-color: var(--color-secondary);
-      box-shadow: 0 0 0 3px rgba(217, 125, 85, 0.15);
-    }
-
-    /* Modal for Deal Deconstruction */
-    .modal-overlay {
+    body::before {
+      content: "";
       position: fixed;
-      inset: 0;
-      background-color: rgba(28, 25, 23, 0.65);
-      backdrop-filter: blur(4px);
-      -webkit-backdrop-filter: blur(4px);
-      z-index: 1000;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      padding: 1.5rem;
+      inset: 0 0 auto;
+      height: env(safe-area-inset-top, 0px);
+      background: var(--bg);
+      z-index: 11
     }
 
-    .modal-overlay.open {
+    .bar {
       display: flex;
-      animation: fadeIn 0.2s ease-in-out;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      gap: 1rem
     }
 
-    .modal-content {
-      background-color: var(--bg-card);
-      border-radius: var(--radius-xl);
-      max-width: 760px;
-      width: 100%;
-      max-height: 90vh;
-      overflow-y: auto;
-      padding: 2.5rem;
-      box-shadow: var(--shadow-lg);
-      position: relative;
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: .7rem;
+      font-weight: 800;
+      letter-spacing: -.01em
     }
 
-    .modal-close-btn {
-      position: absolute;
-      top: 1.5rem;
-      right: 1.5rem;
+    .mono {
       width: 36px;
       height: 36px;
       border-radius: 50%;
-      background-color: var(--bg-base);
-      border: 1px solid var(--border-card);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      color: var(--text-ink);
-      transition: all var(--transition-fast);
-    }
-
-    .modal-close-btn:hover {
-      background-color: var(--color-secondary);
-      color: #FFFFFF;
-    }
-
-    /* Toast Notification */
-    .toast-notification {
-      position: fixed;
-      bottom: 2rem;
-      right: 2rem;
-      background-color: var(--text-ink);
-      color: #FFFFFF;
-      padding: 1rem 1.5rem;
-      border-radius: var(--radius-md);
-      box-shadow: var(--shadow-lg);
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      z-index: 2000;
-      transform: translateY(120%);
-      transition: transform var(--transition-smooth);
-      font-size: 0.9rem;
-      font-weight: 600;
-    }
-
-    .toast-notification.show {
-      transform: translateY(0);
-    }
-
-    /* Footer */
-    .site-footer {
-      background-color: var(--text-ink);
-      color: #FFFFFF;
-      padding: 4.5rem 0 2.5rem;
-    }
-
-    .footer-grid {
+      background: var(--accent);
+      color: #fff;
       display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr;
-      gap: 3rem;
-      margin-bottom: 3.5rem;
+      place-items: center;
+      font: 700 .95rem var(--serif)
     }
 
-    .footer-brand-title {
-      font-size: 1.25rem;
-      font-weight: 800;
-      margin-bottom: 0.65rem;
+    nav {
       display: flex;
-      align-items: center;
-      gap: 0.65rem;
+      gap: 1.5rem;
+      font-size: .9rem;
+      font-weight: 600;
+      color: var(--muted)
     }
 
-    .footer-brand-desc {
-      font-size: 0.925rem;
-      color: #A8A29E;
-      line-height: 1.6;
-      max-width: 360px;
+    nav a:hover {
+      color: var(--ink)
     }
 
-    .footer-heading {
-      font-size: 0.8125rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
+    .btn {
+      display: inline-block;
+      padding: .7rem 1.25rem;
+      border-radius: 10px;
       font-weight: 700;
-      color: #D6D3D1;
-      margin-bottom: 1.25rem;
+      font-size: .92rem;
+      background: var(--accent);
+      color: #fff;
+      transition: background .15s
     }
 
-    .footer-links {
-      list-style: none;
+    .btn:hover {
+      background: var(--accent-d)
+    }
+
+    .btn.ghost {
+      background: transparent;
+      color: var(--ink);
+      border: 1.5px solid var(--line)
+    }
+
+    .btn.ghost:hover {
+      border-color: var(--accent);
+      color: var(--accent-d);
+      background: transparent
+    }
+
+    /* hero */
+    .hero {
+      padding-block: 4.5rem 3.5rem;
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      column-gap: 4rem;
+      align-items: start
+    }
+
+    .hero>* {
+      grid-column: 1
+    }
+
+    .hero>.portrait {
+      grid-column: 2;
+      grid-row: 1/span 4;
+      margin: 0
+    }
+
+    .hero>.stats {
+      grid-column: 1/-1
+    }
+
+    .portrait img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4/5;
+      object-fit: cover;
+      border-radius: 20px;
+      border: 1px solid var(--line);
+      box-shadow: 0 18px 40px -18px rgba(28, 25, 23, .25)
+    }
+
+    .portrait figcaption {
+      margin-top: .75rem;
+      font-size: .85rem;
+      color: var(--subtle)
+    }
+
+    .portrait figcaption b {
+      color: var(--ink)
+    }
+
+    .addphoto {
+      display: inline-block;
+      position: relative;
+      margin-top: .6rem;
+      font-size: .82rem;
+      font-weight: 700;
+      color: var(--accent-d);
+      cursor: pointer;
+      border-bottom: 1px solid currentColor
+    }
+
+    .addphoto input {
+      position: absolute;
+      opacity: 0;
+      width: 1px;
+      height: 1px
+    }
+
+    .addphoto:focus-within {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: .55rem;
+      font-size: .85rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 1.5rem
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10B981;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, .25)
+    }
+
+    h1 {
+      font: 400 clamp(2.4rem, 6.4vw, 4.6rem)/1.08 var(--serif);
+      letter-spacing: -.025em;
+      max-width: 15em
+    }
+
+    h1 em {
+      font-style: italic;
+      color: var(--accent)
+    }
+
+    .lede {
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 36em;
+      margin: 1.5rem 0 2rem
+    }
+
+    .cta {
       display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
+      flex-wrap: wrap;
+      gap: .8rem
     }
 
-    .footer-link {
-      font-size: 0.9rem;
-      color: #A8A29E;
-      transition: color var(--transition-fast);
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 4rem;
+      border-top: 1px solid var(--line)
     }
 
-    .footer-link:hover {
-      color: var(--color-secondary);
+    .stats div {
+      padding: 1.4rem 1rem 0 0
     }
 
-    .footer-bottom {
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-      padding-top: 2rem;
+    .stats b {
+      display: block;
+      font: 400 clamp(1.8rem, 3.6vw, 2.6rem)/1 var(--serif);
+      color: var(--accent)
+    }
+
+    .stats span {
+      font-size: .85rem;
+      color: var(--subtle)
+    }
+
+    /* sections */
+    section {
+      padding: 4.5rem 0;
+      border-top: 1px solid var(--line)
+    }
+
+    section.alt {
+      background: var(--alt)
+    }
+
+    h2 {
+      font: 400 clamp(1.8rem, 3.6vw, 2.5rem)/1.15 var(--serif);
+      letter-spacing: -.02em;
+      margin-bottom: .6rem
+    }
+
+    .sub {
+      color: var(--muted);
+      max-width: 38em;
+      margin-bottom: 2.5rem
+    }
+
+    /* deal ledger */
+    .ledger {
+      border-top: 1px solid var(--line)
+    }
+
+    details {
+      border-bottom: 1px solid var(--line)
+    }
+
+    summary {
+      list-style: none;
+      cursor: pointer;
+      display: grid;
+      grid-template-columns: 1fr auto auto 1.2rem;
+      gap: 1.25rem;
+      align-items: baseline;
+      padding: 1.15rem 0
+    }
+
+    summary::-webkit-details-marker {
+      display: none
+    }
+
+    summary .who {
+      font-weight: 700
+    }
+
+    summary .who small {
+      display: block;
+      font-weight: 400;
+      font-size: .85rem;
+      color: var(--subtle)
+    }
+
+    summary .acv {
+      font: 400 1.5rem var(--serif);
+      color: var(--accent)
+    }
+
+    summary .cyc {
+      font-size: .85rem;
+      color: var(--subtle);
+      white-space: nowrap
+    }
+
+    summary::after {
+      content: "+";
+      font-size: 1.3rem;
+      color: var(--accent);
+      transition: transform .2s;
+      justify-self: end
+    }
+
+    details[open] summary::after {
+      transform: rotate(45deg)
+    }
+
+    summary:hover .who {
+      color: var(--accent-d)
+    }
+
+    .detail {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75rem;
+      padding: .25rem 0 1.75rem
+    }
+
+    .detail h4 {
+      font-size: .85rem;
+      color: var(--accent-d);
+      margin-bottom: .3rem
+    }
+
+    .detail p {
+      font-size: .92rem;
+      color: var(--muted)
+    }
+
+    /* method */
+    .three {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem
+    }
+
+    .three h3 {
+      font: 400 1.35rem var(--serif);
+      margin-bottom: .5rem
+    }
+
+    .three p {
+      color: var(--muted);
+      font-size: .95rem
+    }
+
+    .three ul {
+      list-style: none;
+      margin-top: 1rem;
+      font-size: .88rem;
+      font-weight: 600
+    }
+
+    .three li {
+      padding: .4rem 0;
+      border-top: 1px solid var(--line)
+    }
+
+    /* career */
+    .job {
+      display: grid;
+      grid-template-columns: 9rem 1fr;
+      gap: 1.5rem;
+      padding: 1.5rem 0;
+      border-top: 1px solid var(--line)
+    }
+
+    .job time {
+      font-size: .88rem;
+      color: var(--subtle);
+      font-weight: 600
+    }
+
+    .job h3 {
+      font-size: 1.05rem
+    }
+
+    .job .co {
+      color: var(--accent-d);
+      font-weight: 600;
+      font-size: .92rem;
+      margin-bottom: .4rem
+    }
+
+    .job p {
+      color: var(--muted);
+      font-size: .93rem;
+      max-width: 44em
+    }
+
+    /* quotes */
+    .quotes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem
+    }
+
+    blockquote {
+      font: italic 1.15rem/1.6 var(--serif);
+      border-left: 3px solid var(--accent);
+      padding-left: 1.25rem
+    }
+
+    cite {
+      display: block;
+      margin-top: .9rem;
+      font: 600 .85rem var(--sans);
+      font-style: normal;
+      color: var(--subtle)
+    }
+
+    /* contact */
+    .contact {
+      text-align: left
+    }
+
+    .mail {
+      display: inline-block;
+      font: 400 clamp(1.4rem, 4vw, 2.4rem) var(--serif);
+      border-bottom: 2px solid var(--accent);
+      margin: .5rem 0 1.75rem;
+      word-break: break-all
+    }
+
+    .mail:hover {
+      color: var(--accent-d)
+    }
+
+    footer {
+      padding: 2rem 0;
+      border-top: 1px solid var(--line);
+      font-size: .85rem;
+      color: var(--subtle)
+    }
+
+    footer .wrap {
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      font-size: 0.8125rem;
-      color: #78716C;
+      flex-wrap: wrap;
+      gap: .5rem
     }
 
-    /* Responsive Queries */
-    @media (max-width: 1024px) {
-      .hero-grid, .about-grid, .calc-box, .contact-grid {
+    @media (max-width:820px) {
+      nav {
+        display: none
+      }
+
+      .stats {
+        grid-template-columns: 1fr 1fr
+      }
+
+      .detail,
+      .three,
+      .quotes {
+        grid-template-columns: 1fr
+      }
+
+      .job {
         grid-template-columns: 1fr;
-        gap: 2.5rem;
+        gap: .2rem
       }
-      .voice-intro-card {
-        position: static;
+
+      summary {
+        grid-template-columns: 1fr auto 1.2rem
       }
-      .pillars-grid, .deals-grid, .testimonials-grid {
-        grid-template-columns: repeat(2, 1fr);
+
+      summary .cyc {
+        display: none
       }
-      .meddpicc-grid {
-        grid-template-columns: repeat(2, 1fr);
+
+      .hero {
+        padding-top: 3rem;
+        grid-template-columns: 1fr
+      }
+
+      .hero>.portrait {
+        grid-column: 1;
+        grid-row: auto;
+        max-width: 240px
       }
     }
 
-    @media (max-width: 768px) {
-      .nav-links, .header-actions {
-        display: none;
+    @media (prefers-reduced-motion:reduce) {
+      html {
+        scroll-behavior: auto
       }
-      .menu-toggle {
-        display: block;
-      }
-      .pillars-grid, .deals-grid, .testimonials-grid, .beyond-grid {
-        grid-template-columns: 1fr;
-      }
-      .meddpicc-grid {
-        grid-template-columns: 1fr;
-      }
-      .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-      }
-      .form-row {
-        grid-template-columns: 1fr;
-      }
-      .methodology-panel {
-        padding: 1.75rem;
+
+      * {
+        transition: none !important
       }
     }
   </style>
 </head>
+
 <body>
-
-  <!-- Top Availability Banner -->
-  <aside class="top-banner" aria-label="Executive Availability Notice">
-    <span class="status-dot"></span>
-    <span>MEET ASHLEY MILLER: EVALUATING SELECT STRATEGIC ENTERPRISE AE & REVENUE LEADERSHIP ROLES</span>
-    <span style="opacity: 0.5;">·</span>
-    <span style="color: var(--color-secondary); font-weight: 700;">SAN FRANCISCO / NYC / REMOTE</span>
-  </aside>
-
-  <!-- Sticky Executive Header -->
-  <header class="site-header" id="header">
-    <div class="container">
-      <div class="header-inner">
-        <!-- Brand / Monogram with Ashley's Avatar -->
-        <a href="#hero" class="brand-wrap" aria-label="Ashley Miller Sales Home">
-          <img src="assets/images/ashley-miller.jpg" alt="Ashley Miller Headshot" class="brand-avatar-mini">
-          <div class="brand-text">
-            <span class="brand-name">Ashley Miller</span>
-            <span class="brand-title">Enterprise Sales Leader</span>
-          </div>
-        </a>
-
-        <!-- Desktop Navigation -->
-        <nav aria-label="Main Navigation">
-          <ul class="nav-links">
-            <li><a href="#about" class="nav-link">About Ashley</a></li>
-            <li><a href="#metrics" class="nav-link">Track Record</a></li>
-            <li><a href="#deals" class="nav-link">Deal Wins</a></li>
-            <li><a href="#methodology" class="nav-link">MEDDPICC</a></li>
-            <li><a href="#calculator" class="nav-link">Revenue ROI</a></li>
-            <li><a href="#experience" class="nav-link">Career</a></li>
-            <li><a href="#endorsements" class="nav-link">Reviews</a></li>
-          </ul>
-        </nav>
-
-        <!-- CTA Actions -->
-        <div class="header-actions">
-          <a href="#contact" class="btn btn-secondary btn-sm">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-              <line x1="16" y1="2" x2="16" y2="6"></line>
-              <line x1="8" y1="2" x2="8" y2="6"></line>
-              <line x1="3" y1="10" x2="21" y2="10"></line>
-            </svg>
-            Book Strategy Call
-          </a>
-        </div>
-
-        <!-- Mobile Menu Toggle Button -->
-        <button id="mobileMenuBtn" class="menu-toggle" aria-label="Toggle navigation menu">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-        </button>
-      </div>
+  <header>
+    <div class="wrap bar">
+      <a href="#top" class="brand"><span class="mono">AM</span>Ashley Miller</a>
+      <nav aria-label="Main">
+        <a href="#deals">Deals</a><a href="#method">Method</a><a href="#career">Career</a><a
+          href="#words">References</a>
+      </nav>
+      <a href="#contact" class="btn">Book a call</a>
     </div>
   </header>
 
-  <!-- Mobile Drawer -->
-  <div class="drawer-backdrop" id="drawerBackdrop"></div>
-  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Menu">
-    <div>
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
-        <div style="display: flex; align-items: center; gap: 0.75rem;">
-          <img src="assets/images/ashley-miller.jpg" alt="Ashley Miller" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-secondary);">
-          <span class="brand-name">Ashley Miller</span>
-        </div>
-        <button id="closeDrawerBtn" style="padding: 0.5rem; font-size: 1.5rem; color: var(--text-ink);" aria-label="Close menu">&times;</button>
+  <main id="top">
+    <div class="wrap hero">
+      <!-- Swap the src below for your own photo, e.g. src="photo.jpg" -->
+      <figure class="portrait">
+        <img alt="Portrait of Ashley Miller" width="400" height="500"
+          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 500'%3E%3Crect width='400' height='500' fill='%23F7E8E1'/%3E%3Cpath d='M40 500c0-110 70-170 160-170s160 60 160 170z' fill='%231C1917'/%3E%3Crect x='170' y='290' width='60' height='60' fill='%23E2A98A'/%3E%3Cpath d='M200 335l-42 165h84z' fill='%23D97D55'/%3E%3Cellipse cx='200' cy='225' rx='68' ry='82' fill='%23EDBB9E'/%3E%3Cpath d='M130 215c-6-70 40-105 80-100 45 4 68 40 62 100-20-35-50-50-85-48-30 2-48 20-57 48z' fill='%235A3A2A'/%3E%3C/svg%3E">
+        <figcaption><b>Ashley Miller</b> · San Francisco</figcaption>
+        <label class="addphoto">Use your own photo<input type="file" accept="image/*" id="photoPick"></label>
+      </figure>
+      <p class="status"><span class="dot"></span>Open to strategic enterprise and revenue leadership roles · San
+        Francisco, New York, remote</p>
+      <h1>I turn seven-figure risk into <em>signed contracts.</em></h1>
+      <p class="lede">Ten years selling cloud, security and SaaS to Fortune 500 buyers. I don’t pitch features. I build
+        the CFO business case, map the buying committee and keep the deal honest until it closes, at full price.</p>
+      <div class="cta">
+        <a href="#deals" class="btn">See closed deals</a>
+        <a href="#contact" class="btn ghost">Get in touch</a>
       </div>
-      <ul style="list-style: none; display: flex; flex-direction: column; gap: 1.25rem;">
-        <li><a href="#about" class="mobile-nav-link" style="font-size: 1.15rem; font-weight: 700;">About Ashley</a></li>
-        <li><a href="#metrics" class="mobile-nav-link" style="font-size: 1.15rem; font-weight: 700;">Track Record</a></li>
-        <li><a href="#deals" class="mobile-nav-link" style="font-size: 1.15rem; font-weight: 700;">Deal Case Studies</a></li>
-        <li><a href="#methodology" class="mobile-nav-link" style="font-size: 1.15rem; font-weight: 700;">MEDDPICC Playbook</a></li>
-        <li><a href="#calculator" class="mobile-nav-link" style="font-size: 1.15rem; font-weight: 700;">Revenue ROI Simulator</a></li>
-        <li><a href="#experience" class="mobile-nav-link" style="font-size: 1.15rem; font-weight: 700;">Career Milestones</a></li>
-        <li><a href="#endorsements" class="mobile-nav-link" style="font-size: 1.15rem; font-weight: 700;">Endorsements</a></li>
-      </ul>
-    </div>
-    <div>
-      <a href="#contact" class="btn btn-secondary mobile-nav-link" style="width: 100%;">Schedule Strategy Call</a>
-      <p style="text-align: center; font-size: 0.75rem; color: var(--text-subtle); margin-top: 1rem;">Direct: ashley.miller.sales@enterprise.io</p>
-    </div>
-  </aside>
-
-  <!-- Hero Section with Ashley's Portrait -->
-  <section class="hero-section" id="hero">
-    <div class="container">
-      <div class="hero-grid">
-        <!-- Hero Text Content -->
-        <div>
-          <div class="eyebrow-pill">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="color: var(--color-secondary); flex-shrink: 0;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-            <span>5X President's Club · $48.5M+ Closed ARR</span>
-          </div>
-
-          <h1 class="hero-title">
-            "I don't pitch features. I partner with <span class="accent-highlight">Fortune 500</span> executives to solve multi-million dollar bottlenecks."
-          </h1>
-
-          <p class="hero-desc">
-            Hi, I’m <strong>Ashley Miller</strong>. For over a decade, I’ve served as a Strategic Enterprise Account Executive and Revenue Director across Cloud Infrastructure, Cybersecurity, and B2B SaaS. I believe great enterprise selling is disciplined management consulting with an undeniable CFO business case.
-          </p>
-
-          <!-- Personal Quote Banner -->
-          <div class="personal-quote-banner">
-            "Behind every 7-figure contract is a team of leaders putting their internal reputations on the line. My job is to make sure they succeed brilliantly."
-            <span class="personal-quote-author">— Ashley Miller, Strategic Enterprise Director</span>
-          </div>
-
-          <div class="hero-ctas">
-            <a href="#about" class="btn btn-secondary">
-              Meet Ashley &amp; My Story
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </a>
-
-            <a href="#deals" class="btn btn-outline">
-              Review Major Deal Wins
-            </a>
-
-            <div class="email-copy-chip" id="copyEmailChip" title="Click to copy executive email">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-              </svg>
-              <span>ashley.miller.sales@enterprise.io</span>
-              <span class="copy-status" id="copyStatusText">Copy</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Hero Right: Authentic Portrait Stage -->
-        <div class="portrait-stage-card">
-          <div class="portrait-img-wrap">
-            <img src="assets/images/ashley-miller.jpg" alt="Ashley Miller — Enterprise Sales Leader" loading="eager">
-
-            <!-- Floating Verified Achievement Badges -->
-            <div class="floating-badge top-right">
-              <span class="badge-indicator"></span>
-              <span>5x President's Club Winner</span>
-            </div>
-
-            <div class="floating-badge bottom-left">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              <span>94% Competitive Late-Stage Win Rate</span>
-            </div>
-          </div>
-
-          <!-- Quick Statistics Bar Under Photo -->
-          <div class="under-portrait-stats" id="metrics">
-            <div class="portrait-mini-stat">
-              <div class="portrait-mini-val">$48.5M+</div>
-              <div class="portrait-mini-lbl">Closed ARR</div>
-            </div>
-            <div class="portrait-mini-stat">
-              <div class="portrait-mini-val" style="color: var(--text-ink);">154%</div>
-              <div class="portrait-mini-lbl">Avg Quota</div>
-            </div>
-            <div class="portrait-mini-stat">
-              <div class="portrait-mini-val">$1.4M</div>
-              <div class="portrait-mini-lbl">Avg Deal ACV</div>
-            </div>
-          </div>
-        </div>
+      <div class="stats">
+        <div><b>$48.5M</b><span>Closed ARR</span></div>
+        <div><b>154%</b><span>Average quota attainment</span></div>
+        <div><b>5×</b><span>President’s Club</span></div>
+        <div><b>$1.4M</b><span>Average deal size</span></div>
       </div>
     </div>
-  </section>
 
-  <!-- Enterprise Sectors & Industry Bar -->
-  <section class="sectors-bar">
-    <div class="container">
-      <div class="sectors-title">Trusted by C-Suite Buyers &amp; Enterprise Champions Across Verticals</div>
-      <div class="sectors-grid">
-        <div class="sector-badge">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="2" width="20" height="20" rx="2" ry="2"></rect>
-            <line x1="7" y1="8" x2="17" y2="8"></line>
-            <line x1="7" y1="12" x2="17" y2="12"></line>
-            <line x1="7" y1="16" x2="11" y2="16"></line>
-          </svg>
-          Tier-1 Financial Services &amp; Core Banking
-        </div>
-        <div class="sector-badge">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-          </svg>
-          Fortune 100 Health Systems &amp; Life Sciences
-        </div>
-        <div class="sector-badge">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
-          </svg>
-          Cloud Infrastructure &amp; Kubernetes DevTools
-        </div>
-        <div class="sector-badge">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-          </svg>
-          Cybersecurity &amp; Zero-Trust Architecture
-        </div>
-        <div class="sector-badge">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="9" cy="21" r="1"></circle>
-            <circle cx="20" cy="21" r="1"></circle>
-            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-          </svg>
-          Omnichannel Retail &amp; Global Logistics
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- MEET ASHLEY: IN MY OWN WORDS SECTION -->
-  <section class="about-me-section" id="about">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">In My Own Words</span>
-        <h2 class="section-title">The Person Behind The Numbers</h2>
-        <p class="section-desc">
-          What drove me into enterprise tech sales, how I treat customer partnerships, and what you can expect when I lead a territory or revenue team.
-        </p>
-      </div>
-
-      <div class="about-grid">
-        <!-- Left: Interactive Voice Note Card -->
-        <div class="voice-intro-card">
-          <div class="voice-intro-header">
-            <img src="assets/images/ashley-miller.jpg" alt="Ashley Miller" class="voice-intro-avatar">
-            <div>
-              <div style="font-size: 1.15rem; font-weight: 800; color: var(--text-ink); line-height: 1.2;">Ashley Miller</div>
-              <div style="font-size: 0.78125rem; font-weight: 700; color: var(--color-secondary);">60-Second Audio Memo</div>
-            </div>
-          </div>
-
-          <div class="audio-player-box" id="audioPlayerBox">
-            <div class="audio-controls-row">
-              <button class="play-audio-btn" id="playAudioBtn" aria-label="Play 60-second executive audio note">
-                <svg id="playIconSvg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                </svg>
-                <svg id="pauseIconSvg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
-                  <rect x="6" y="4" width="4" height="16"></rect>
-                  <rect x="14" y="4" width="4" height="16"></rect>
-                </svg>
-              </button>
-
-              <div class="waveform-visualizer" id="waveVisualizer">
-                <div class="wave-bar" style="height: 14px;"></div>
-                <div class="wave-bar" style="height: 22px;"></div>
-                <div class="wave-bar" style="height: 30px;"></div>
-                <div class="wave-bar" style="height: 18px;"></div>
-                <div class="wave-bar" style="height: 26px;"></div>
-                <div class="wave-bar" style="height: 34px;"></div>
-                <div class="wave-bar" style="height: 20px;"></div>
-                <div class="wave-bar" style="height: 28px;"></div>
-                <div class="wave-bar" style="height: 16px;"></div>
-                <div class="wave-bar" style="height: 24px;"></div>
-              </div>
-
-              <span class="audio-time-label" id="audioTimeLabel">0:00 / 0:58</span>
-            </div>
-
-            <div class="transcript-box">
-              <strong style="color: var(--text-ink); display: block; margin-bottom: 0.35rem;">Audio Memo Transcript:</strong>
-              <p style="font-size: 0.825rem; line-height: 1.55; color: var(--text-muted);" id="transcriptText">
-                "Hi there, I'm Ashley Miller. If you're a CRO, CEO, or Head of Talent, you've probably reviewed dozens of sales resumes with big quota claims. What makes my approach different is that I treat enterprise sales like strategic management consulting. When I sit across from a Fortune 50 CIO or CFO, I'm not pitching features—I'm diagnosing systemic friction and co-building an ROI model that proves payback in under 9 months. Take a look around my deal playbooks and track record below, and let's set up 20 minutes to talk strategy."
-              </p>
-            </div>
-          </div>
-
-          <div style="font-size: 0.8125rem; color: var(--text-subtle); display: flex; align-items: center; gap: 0.5rem;">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span>Recorded in San Francisco, CA · Updated Q1 2026</span>
-          </div>
-        </div>
-
-        <!-- Right: Story Blocks -->
-        <div>
-          <!-- Story 1 -->
-          <div class="story-block">
-            <span class="story-eyebrow">The Origin Story</span>
-            <h3 class="story-title">From 90 Cold Calls a Day to 8-Figure Enterprise Deals</h3>
-            <p class="story-p">
-              I didn't start with an enterprise rolodex or inbound leads. I cut my teeth in B2B tech the hardest way possible: cold outbound prospecting as an SDR, grinding through 90 dials and personalized emails every single day.
-            </p>
-            <p class="story-p">
-              That experience taught me the foundational rule of revenue: <strong>active listening always beats smooth talking</strong>. An executive will tell you their deepest organizational headaches if they sense you actually care about solving their problem rather than hitting your month-end quota. That SDR resilience still powers how I run enterprise territories today.
-            </p>
-          </div>
-
-          <!-- Story 2 -->
-          <div class="story-block">
-            <span class="story-eyebrow">My Closing Philosophy</span>
-            <h3 class="story-title">Why I Refuse Discounting &amp; 'Hope-Based' Selling</h3>
-            <p class="story-p">
-              When an enterprise sales rep folds and offers a 35% discount on the 29th of the month, they signal to procurement that their software was never worth full price in the first place. Worse, they destroy company gross margins.
-            </p>
-            <p class="story-p">
-              My philosophy is rooted in <strong>defensible CFO value engineering</strong>. Before I ever present a commercial proposal, my team and I have already quantified the cost of downtime, the headcount hours reclaimed, and the regulatory risk eliminated. When the numbers show a 6.8-month payback, price ceases to be a hurdle.
-            </p>
-          </div>
-
-          <!-- Story 3 -->
-          <div class="story-block">
-            <span class="story-eyebrow">Leadership &amp; Human Foundation</span>
-            <h3 class="story-title">The Deal Team Wins Together</h3>
-            <p class="story-p">
-              No individual AE closes a multi-million-dollar deal alone. My role is that of an orchestrator: ensuring our Sales Engineers, Solutions Architects, Legal counsel, and Customer Success partners are fully aligned, valued, and celebrated. When a prospect witnesses authentic cohesion across our deal team, confidence follows naturally.
-            </p>
-
-            <!-- Beyond the Quota Grid -->
-            <div class="beyond-grid">
-              <div class="beyond-card">
-                <div class="beyond-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="4" r="2"></circle><path d="m18 19-4-4 2-5-4-3-3 3"></path><path d="M7 13l2-2"></path><path d="m5 21 4-6"></path></svg>
-                </div>
-                <div class="beyond-heading">Marathon Runner</div>
-                <div class="beyond-desc">Completed 3 full marathons. The mental stamina needed at mile 22 is the exact mindset required during month 11 of a complex procurement cycle.</div>
-              </div>
-              <div class="beyond-card">
-                <div class="beyond-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17 2 2a1 1 0 0 0 1.4 0l4.3-4.3a1 1 0 0 0 0-1.4l-2.6-2.6"></path><path d="m18 10 1-1a2 2 0 0 0 0-2.8l-1.4-1.4a2 2 0 0 0-2.8 0l-1 1"></path><path d="m14 14-3.5 3.5a1.5 1.5 0 0 1-2.1 0L4 13.1a2 2 0 0 1 0-2.8L8.3 6a2 2 0 0 1 2.8 0l1.4 1.4"></path><path d="m7 15-3 3"></path></svg>
-                </div>
-                <div class="beyond-heading">Sales Mentor</div>
-                <div class="beyond-desc">Volunteer mentor for <em>Women in Revenue</em>, actively coaching SDRs and junior AEs on deal qualification, executive presence, and salary negotiation.</div>
-              </div>
-              <div class="beyond-card">
-                <div class="beyond-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
-                </div>
-                <div class="beyond-heading">Lifelong Student</div>
-                <div class="beyond-desc">Constantly studying behavioral economics, enterprise cloud architecture, and corporate governance to speak the exact native language of the C-suite.</div>
-              </div>
-            </div>
-
-            <!-- Signature -->
-            <div class="signature-wrap">
-              <svg class="signature-svg" viewBox="0 0 240 60" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M10 40 Q 25 10, 40 40 Q 55 50, 70 20 T 95 35 T 120 25 T 145 38" />
-                <path d="M45 30 L 170 30" />
-                <path d="M160 20 Q 175 45, 190 20 Q 205 35, 220 18" />
-              </svg>
+    <section id="deals">
+      <div class="wrap">
+        <h2>Closed deals, opened up</h2>
+        <p class="sub">Six of the transactions I’m proudest of. Open any row for the challenge, the approach and the
+          result.</p>
+        <div class="ledger">
+          <details>
+            <summary><span class="who">Global tier-1 investment bank<small>Financial services · 3-year cloud
+                  migration</small></span><span class="acv">$4.2M</span><span class="cyc">11 months</span></summary>
+            <div class="detail">
               <div>
-                <strong style="color: var(--text-ink); font-size: 0.95rem; display: block;">Ashley Miller</strong>
-                <span class="signature-caption">Enterprise Sales Leader &amp; Strategic Account Director</span>
+                <h4>Challenge</h4>
+                <p>Eighteen legacy datacenters costing $42M a year, and an eight-year incumbent. New latency mandates
+                  opened the door.</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Executive Sales Thesis: 3 Pillars -->
-  <section class="container" style="margin-bottom: 5rem;">
-    <div class="section-header">
-      <span class="section-eyebrow">Executive Value Proposition</span>
-      <h2 class="section-title">The Three Pillars of Non-Discounted Enterprise Closing</h2>
-      <p class="section-desc">
-        Enterprise deals are not won by smooth talking; they are engineered through financial rigor, cross-functional stakeholder mapping, and meticulous procurement governance.
-      </p>
-    </div>
-
-    <div class="pillars-grid">
-      <!-- Pillar 1 -->
-      <div class="pillar-card">
-        <div class="pillar-icon">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"></circle>
-            <circle cx="12" cy="12" r="6"></circle>
-            <circle cx="12" cy="12" r="2"></circle>
-          </svg>
-        </div>
-        <h3 class="pillar-title">Relentless MEDDPICC Rigor</h3>
-        <p class="pillar-desc">
-          Eliminating quarter-end forecast surprises through continuous qualification. Every deal has an active Economic Buyer, quantified pain, and verified Decision Process.
-        </p>
-        <ul class="pillar-bullets">
-          <li class="pillar-bullet">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            Pre-empting legal, security &amp; infosec redlines
-          </li>
-          <li class="pillar-bullet">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            Documented Paper Process milestones
-          </li>
-          <li class="pillar-bullet">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            Zero forecast slippage over 8 quarters
-          </li>
-        </ul>
-      </div>
-
-      <!-- Pillar 2 -->
-      <div class="pillar-card">
-        <div class="pillar-icon">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-            <circle cx="9" cy="7" r="4"></circle>
-            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-          </svg>
-        </div>
-        <h3 class="pillar-title">Multi-Threaded Alignment</h3>
-        <p class="pillar-desc">
-          Single-threaded deals die in procurement. I systematically map and mobilize 10+ stakeholders per account across C-suite, architecture, procurement, and frontline operators.
-        </p>
-        <ul class="pillar-bullets">
-          <li class="pillar-bullet">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            CFO &amp; CDO business case sponsorship
-          </li>
-          <li class="pillar-bullet">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            Securing frontline technical champions
-          </li>
-          <li class="pillar-bullet">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            Co-authored Mutual Action Plans (MAP)
-          </li>
-        </ul>
-      </div>
-
-      <!-- Pillar 3 -->
-      <div class="pillar-card">
-        <div class="pillar-icon">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="12" y1="1" x2="12" y2="23"></line>
-            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-          </svg>
-        </div>
-        <h3 class="pillar-title">Value Engineering &amp; CFO Defense</h3>
-        <p class="pillar-desc">
-          Transforming product features into boardroom-ready financial models. Justifying 7-figure investments through EBITDA acceleration, risk reduction, and tooling consolidation.
-        </p>
-        <ul class="pillar-bullets">
-          <li class="pillar-bullet">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            Defensible &lt;9 month payback periods
-          </li>
-          <li class="pillar-bullet">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            Zero discounting in 85% of closed deals
-          </li>
-          <li class="pillar-bullet">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            135% Net Revenue Retention (NRR) expansion
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Featured Enterprise Deal Deconstructions (Portfolio) -->
-  <section class="deals-section" id="deals">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Closed-Won Portfolio</span>
-        <h2 class="section-title">Enterprise Deal Deconstructions</h2>
-        <p class="section-desc">
-          Six signature enterprise transactions breaking down the strategic challenge, stakeholder orchestration, competitive positioning, and measurable business outcomes.
-        </p>
-      </div>
-
-      <!-- Category Filter Pills -->
-      <div class="deal-filter-bar">
-        <button class="filter-btn active" data-filter="all">All Deals (6)</button>
-        <button class="filter-btn" data-filter="infra">Cloud &amp; Infra (2)</button>
-        <button class="filter-btn" data-filter="fintech">FinTech &amp; Banking (2)</button>
-        <button class="filter-btn" data-filter="health">Health &amp; Cyber (2)</button>
-      </div>
-
-      <!-- Deal Cards Grid -->
-      <div class="deals-grid" id="dealsGrid">
-        <!-- Deal 1 -->
-        <article class="deal-card" data-category="fintech">
-          <div class="deal-top">
-            <div class="deal-meta-header">
-              <span class="deal-category-pill">Global FinTech</span>
-              <span class="deal-cycle">11 Mo. Sales Cycle</span>
-            </div>
-            <h3 class="deal-title">Global Tier-1 Investment Bank</h3>
-            <div class="deal-value-row">
-              <span class="deal-acv">$4.2M</span>
-              <span class="deal-contract-type">3-Year Cloud Migration</span>
-            </div>
-            <p class="deal-desc">
-              Replaced legacy monolithic mainframe middleware across trading floors. Displaced 8-year incumbent with an airtight regulatory compliance and throughput ROI case.
-            </p>
-          </div>
-          <div>
-            <div class="deal-stats-strip">
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Stakeholders Mapped</span>
-                <span class="deal-stat-val">14 C-Suite &amp; VP Execs</span>
-              </div>
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Win Factor</span>
-                <span class="deal-stat-val">CFO Risk Matrix</span>
-              </div>
-            </div>
-            <button class="deal-action-btn view-deal-btn" data-deal="1">
-              Deconstruct Deal Playbook
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-            </button>
-          </div>
-        </article>
-
-        <!-- Deal 2 -->
-        <article class="deal-card" data-category="health">
-          <div class="deal-top">
-            <div class="deal-meta-header">
-              <span class="deal-category-pill">Healthcare &amp; Life Sciences</span>
-              <span class="deal-cycle">8 Mo. Sales Cycle</span>
-            </div>
-            <h3 class="deal-title">Fortune 100 Hospital Network</h3>
-            <div class="deal-value-row">
-              <span class="deal-acv">$2.8M</span>
-              <span class="deal-contract-type">Enterprise Land-and-Expand</span>
-            </div>
-            <p class="deal-desc">
-              Expanded an initial $140K pilot into a multi-subsidiary enterprise contract covering 12,000 clinicians and medical staff across 14 regional hospital campuses.
-            </p>
-          </div>
-          <div>
-            <div class="deal-stats-strip">
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Seat Expansion</span>
-                <span class="deal-stat-val">500 → 12,000 Seats</span>
-              </div>
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Security Review</span>
-                <span class="deal-stat-val">SOC2 + HIPAA Cleared</span>
-              </div>
-            </div>
-            <button class="deal-action-btn view-deal-btn" data-deal="2">
-              Deconstruct Deal Playbook
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-            </button>
-          </div>
-        </article>
-
-        <!-- Deal 3 -->
-        <article class="deal-card" data-category="infra">
-          <div class="deal-top">
-            <div class="deal-meta-header">
-              <span class="deal-category-pill">Global Logistics</span>
-              <span class="deal-cycle">13 Mo. Sales Cycle</span>
-            </div>
-            <h3 class="deal-title">Global Fleet Telematics Giant</h3>
-            <div class="deal-value-row">
-              <span class="deal-acv">$3.6M</span>
-              <span class="deal-contract-type">Multi-Year SaaS Architecture</span>
-            </div>
-            <p class="deal-desc">
-              Rescued a stalled procurement evaluation by co-authoring a Mutual Action Plan directly with the COO, showing a $9.2M 3-year fuel &amp; routing cost elimination.
-            </p>
-          </div>
-          <div>
-            <div class="deal-stats-strip">
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Payback Period</span>
-                <span class="deal-stat-val">6.8 Months Validated</span>
-              </div>
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Discount Given</span>
-                <span class="deal-stat-val">0% (Full Value Retained)</span>
-              </div>
-            </div>
-            <button class="deal-action-btn view-deal-btn" data-deal="3">
-              Deconstruct Deal Playbook
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-            </button>
-          </div>
-        </article>
-
-        <!-- Deal 4 -->
-        <article class="deal-card" data-category="fintech">
-          <div class="deal-top">
-            <div class="deal-meta-header">
-              <span class="deal-category-pill">FinTech API Platform</span>
-              <span class="deal-cycle">45 Day Velocity Deal</span>
-            </div>
-            <h3 class="deal-title">Decacorn Payments Platform</h3>
-            <div class="deal-value-row">
-              <span class="deal-acv">$1.8M</span>
-              <span class="deal-contract-type">Annual Recurring Revenue</span>
-            </div>
-            <p class="deal-desc">
-              Executed an ultra-fast competitive bake-off against an incumbent API provider. Mobilized Developer Relations and VP Engineering to validate 99.999% SLA resilience.
-            </p>
-          </div>
-          <div>
-            <div class="deal-stats-strip">
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">POC Duration</span>
-                <span class="deal-stat-val">14 Days Technical Bake-Off</span>
-              </div>
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Latency Reduction</span>
-                <span class="deal-stat-val">42% Speed Advantage</span>
-              </div>
-            </div>
-            <button class="deal-action-btn view-deal-btn" data-deal="4">
-              Deconstruct Deal Playbook
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-            </button>
-          </div>
-        </article>
-
-        <!-- Deal 5 -->
-        <article class="deal-card" data-category="health">
-          <div class="deal-top">
-            <div class="deal-meta-header">
-              <span class="deal-category-pill">Cybersecurity &amp; SecOps</span>
-              <span class="deal-cycle">9 Mo. Sales Cycle</span>
-            </div>
-            <h3 class="deal-title">Defense Contractor Infrastructure</h3>
-            <div class="deal-value-row">
-              <span class="deal-acv">$2.1M</span>
-              <span class="deal-contract-type">Net-New Enterprise Logo</span>
-            </div>
-            <p class="deal-desc">
-              Managed complex FedRAMP High and CMMC clearance reviews with government security auditors. Coordinated an 8-person sales engineering and solutions team to win unanimous buy-in.
-            </p>
-          </div>
-          <div>
-            <div class="deal-stats-strip">
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Compliance Standard</span>
-                <span class="deal-stat-val">FedRAMP &amp; CMMC Lv. 3</span>
-              </div>
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Incumbent Displaced</span>
-                <span class="deal-stat-val">Legacy Defense SI</span>
-              </div>
-            </div>
-            <button class="deal-action-btn view-deal-btn" data-deal="5">
-              Deconstruct Deal Playbook
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-            </button>
-          </div>
-        </article>
-
-        <!-- Deal 6 -->
-        <article class="deal-card" data-category="infra">
-          <div class="deal-top">
-            <div class="deal-meta-header">
-              <span class="deal-category-pill">Retail Omni-Channel</span>
-              <span class="deal-cycle">7 Mo. Sales Cycle</span>
-            </div>
-            <h3 class="deal-title">Global Retail Conglomerate</h3>
-            <div class="deal-value-row">
-              <span class="deal-acv">$1.5M</span>
-              <span class="deal-contract-type">AI Personalization Engine</span>
-            </div>
-            <p class="deal-desc">
-              Presented business case directly to the Board Strategy Committee. Validated $18.4M projected top-line conversion lift across 2,400 e-commerce storefronts.
-            </p>
-          </div>
-          <div>
-            <div class="deal-stats-strip">
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Storefront Footprint</span>
-                <span class="deal-stat-val">2,400+ Brands &amp; Outlets</span>
-              </div>
-              <div class="deal-stat-item">
-                <span class="deal-stat-lbl">Top-line Uplift</span>
-                <span class="deal-stat-val">+4.8% Cart Checkout Rate</span>
-              </div>
-            </div>
-            <button class="deal-action-btn view-deal-btn" data-deal="6">
-              Deconstruct Deal Playbook
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-            </button>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sales Methodology & Playbook (Interactive Tabs) -->
-  <section class="methodology-section" id="methodology">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Enterprise Execution Playbook</span>
-        <h2 class="section-title">The Operating System for Consistent 150%+ Attainment</h2>
-        <p class="section-desc">
-          How I manage enterprise pipelines from territory mapping to signature — replacing guesswork with verifiable governance.
-        </p>
-      </div>
-
-      <!-- Tab Buttons -->
-      <div class="methodology-tabs">
-        <button class="methodology-tab active" data-tab="meddpicc">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-          1. MEDDPICC in Action
-        </button>
-        <button class="methodology-tab" data-tab="map">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-          2. Mutual Action Plans (MAP)
-        </button>
-        <button class="methodology-tab" data-tab="multithreading">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-          3. Multi-Threading Matrix
-        </button>
-        <button class="methodology-tab" data-tab="cfo">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-          4. CFO Value Engineering
-        </button>
-      </div>
-
-      <!-- Tab Content Panels -->
-      <div class="methodology-panel active" id="tab-meddpicc">
-        <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-ink); margin-bottom: 0.5rem;">The 8 Pillars of MEDDPICC Qualification</h3>
-        <p style="color: var(--text-muted); font-size: 0.95rem;">Every pipeline opportunity is pressure-tested weekly against these 8 objective verification points:</p>
-        
-        <div class="meddpicc-grid">
-          <div class="meddpicc-item">
-            <div class="meddpicc-letter">M</div>
-            <div class="meddpicc-name">Metrics</div>
-            <p class="meddpicc-desc">Quantified economic impact ($ Saved, hours reclaimed, revenue accelerated).</p>
-          </div>
-          <div class="meddpicc-item">
-            <div class="meddpicc-letter">E</div>
-            <div class="meddpicc-name">Economic Buyer</div>
-            <p class="meddpicc-desc">Direct access to the individual with P&amp;L authority and veto power.</p>
-          </div>
-          <div class="meddpicc-item">
-            <div class="meddpicc-letter">D</div>
-            <div class="meddpicc-name">Decision Criteria</div>
-            <p class="meddpicc-desc">Formal technical, security, financial, and operational scoring rubrics.</p>
-          </div>
-          <div class="meddpicc-item">
-            <div class="meddpicc-letter">D</div>
-            <div class="meddpicc-name">Decision Process</div>
-            <p class="meddpicc-desc">Exact committee workflow, timeline, and stakeholder sign-off stages.</p>
-          </div>
-          <div class="meddpicc-item">
-            <div class="meddpicc-letter">P</div>
-            <div class="meddpicc-name">Paper Process</div>
-            <p class="meddpicc-desc">Legal, infosec questionnaires, MSA review, DPA clauses, and vendor onboarding.</p>
-          </div>
-          <div class="meddpicc-item">
-            <div class="meddpicc-letter">I</div>
-            <div class="meddpicc-name">Identify Pain</div>
-            <p class="meddpicc-desc">Deep organizational distress causing tangible executive urgency.</p>
-          </div>
-          <div class="meddpicc-item">
-            <div class="meddpicc-letter">C</div>
-            <div class="meddpicc-name">Champion</div>
-            <p class="meddpicc-desc">Internal sponsor with political capital actively selling on our behalf.</p>
-          </div>
-          <div class="meddpicc-item">
-            <div class="meddpicc-letter">C</div>
-            <div class="meddpicc-name">Competition</div>
-            <p class="meddpicc-desc">Competitive alternatives, internal build attempts, and the cost of "Do Nothing".</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="methodology-panel" id="tab-map">
-        <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-ink); margin-bottom: 0.5rem;">Mutual Action Plans (MAP): Ending Quarter-End Surprises</h3>
-        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem;">A MAP shifts the dynamic from "us selling to them" into "joint project management towards buyer value realization":</p>
-        
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
-          <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-light);">
-            <div style="font-weight: 800; color: var(--color-secondary); font-size: 1.1rem; margin-bottom: 0.5rem;">Phase 1: Discovery &amp; Criteria</div>
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5;">Establish shared business objectives, quantify pain, and gain mutual agreement on success criteria for the evaluation.</p>
-          </div>
-          <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-light);">
-            <div style="font-weight: 800; color: var(--color-secondary); font-size: 1.1rem; margin-bottom: 0.5rem;">Phase 2: Tech Eval &amp; Security</div>
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5;">Time-boxed 14-day technical proof, concurrent Infosec/SOC2 questionnaire submission, and architecture review board.</p>
-          </div>
-          <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-light);">
-            <div style="font-weight: 800; color: var(--color-secondary); font-size: 1.1rem; margin-bottom: 0.5rem;">Phase 3: Procurement &amp; MSA</div>
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5;">Scheduled legal redline turnarounds, pre-aligned commercial terms with Economic Buyer, and PO issuance governance.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="methodology-panel" id="tab-multithreading">
-        <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-ink); margin-bottom: 0.5rem;">Multi-Threading: Mapping the Enterprise Matrix</h3>
-        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem;">In complex 7-figure sales, an average of 11.4 decision makers participate. I orchestrate all five key personas:</p>
-        
-        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
-          <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-light);">
-            <div style="font-weight: 800; color: var(--text-ink); font-size: 1.05rem; margin-bottom: 0.25rem;">1. The Economic Buyer (P&amp;L Holder)</div>
-            <div style="font-size: 0.8125rem; color: var(--color-secondary); font-weight: 700; margin-bottom: 0.5rem;">CFO / CIO / SVP of Engineering</div>
-            <p style="font-size: 0.85rem; color: var(--text-muted);">Care about: Risk mitigation, business continuity, ROI, and EBITDA impact. I present customized financial models, not product decks.</p>
-          </div>
-          <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-light);">
-            <div style="font-weight: 800; color: var(--text-ink); font-size: 1.05rem; margin-bottom: 0.25rem;">2. The Internal Champion</div>
-            <div style="font-size: 0.8125rem; color: var(--color-secondary); font-weight: 700; margin-bottom: 0.5rem;">VP of Platform / Chief Architect / Director</div>
-            <p style="font-size: 0.85rem; color: var(--text-muted);">Care about: Career success and team efficiency. I arm them with internal slide kits, competitor teardowns, and leadership memos.</p>
-          </div>
-          <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-light);">
-            <div style="font-weight: 800; color: var(--text-ink); font-size: 1.05rem; margin-bottom: 0.25rem;">3. Technical Evaluator (The Gatekeeper)</div>
-            <div style="font-size: 0.8125rem; color: var(--color-secondary); font-weight: 700; margin-bottom: 0.5rem;">Lead Staff Engineer / SecOps / CISO</div>
-            <p style="font-size: 0.85rem; color: var(--text-muted);">Care about: Architectural purity, latency, API documentation, and zero false positives. I partner with Sales Engineering for deep dives.</p>
-          </div>
-          <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-light);">
-            <div style="font-weight: 800; color: var(--text-ink); font-size: 1.05rem; margin-bottom: 0.25rem;">4. Legal &amp; Procurement</div>
-            <div style="font-size: 0.8125rem; color: var(--color-secondary); font-weight: 700; margin-bottom: 0.5rem;">Chief Procurement Officer / Enterprise Counsel</div>
-            <p style="font-size: 0.85rem; color: var(--text-muted);">Care about: Indemnification, liability limits, and SLA guarantees. I negotiate value trades rather than slashing baseline contract ACV.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="methodology-panel" id="tab-cfo">
-        <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-ink); margin-bottom: 0.5rem;">CFO Value Engineering: Eliminating Price Resistance</h3>
-        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem;">When buyers request a 30% discount, reps without a business case surrender margin. Here is how I defend contract pricing:</p>
-        
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
-          <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-light);">
-            <div style="font-weight: 800; color: var(--color-secondary); font-size: 1.1rem; margin-bottom: 0.5rem;">Hardware &amp; Tool Consolidation</div>
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5;">Map redundant legacy licenses (e.g. replacing 4 disjointed point solutions) to generate self-funding ROI within 90 days of kickoff.</p>
-          </div>
-          <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-light);">
-            <div style="font-weight: 800; color: var(--color-secondary); font-size: 1.1rem; margin-bottom: 0.5rem;">Revenue Acceleration Modeling</div>
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5;">Demonstrate that a 3-week acceleration in deployment time captures $2.4M in incremental client billing, dwarfing the software ACV.</p>
-          </div>
-          <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.5rem; border: 1px solid var(--border-light);">
-            <div style="font-weight: 800; color: var(--color-secondary); font-size: 1.1rem; margin-bottom: 0.5rem;">Trade Value, Never Price</div>
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.5;">If procurement demands pricing concessions, trade solely for multi-year commitments, upfront annual payment, or public case studies.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Interactive Revenue Lift & Pipeline ROI Simulator -->
-  <section class="calculator-section" id="calculator">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Interactive Simulator</span>
-        <h2 class="section-title">Calculate Revenue Lift with High-Rigor Value Selling</h2>
-        <p class="section-desc">
-          Adjust the parameters to project how structured MEDDPICC qualification and higher win rates translate directly into closed ARR growth for your organization.
-        </p>
-      </div>
-
-      <div class="calc-box">
-        <!-- Sliders Controls -->
-        <div>
-          <!-- Slider 1 -->
-          <div class="calc-slider-group">
-            <div class="calc-slider-header">
-              <span class="calc-label">Target Annual Quota:</span>
-              <span class="calc-value-display" id="quotaValDisplay">$5,000,000</span>
-            </div>
-            <input type="range" min="1000000" max="15000000" step="500000" value="5000000" class="custom-range" id="quotaSlider">
-            <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-subtle); margin-top: 0.25rem;">
-              <span>$1.0M</span>
-              <span>$7.5M</span>
-              <span>$15.0M</span>
-            </div>
-          </div>
-
-          <!-- Slider 2 -->
-          <div class="calc-slider-group">
-            <div class="calc-slider-header">
-              <span class="calc-label">Average Enterprise ACV:</span>
-              <span class="calc-value-display" id="acvValDisplay">$500,000</span>
-            </div>
-            <input type="range" min="100000" max="2500000" step="50000" value="500000" class="custom-range" id="acvSlider">
-            <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-subtle); margin-top: 0.25rem;">
-              <span>$100K</span>
-              <span>$1.2M</span>
-              <span>$2.5M</span>
-            </div>
-          </div>
-
-          <!-- Slider 3 -->
-          <div class="calc-slider-group">
-            <div class="calc-slider-header">
-              <span class="calc-label">Current Pipeline Win Rate:</span>
-              <span class="calc-value-display" id="winRateDisplay">25%</span>
-            </div>
-            <input type="range" min="15" max="50" step="1" value="25" class="custom-range" id="winRateSlider">
-            <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-subtle); margin-top: 0.25rem;">
-              <span>15% (Industry Avg)</span>
-              <span>30%</span>
-              <span>50% (Elite AE)</span>
-            </div>
-          </div>
-
-          <div style="font-size: 0.8125rem; color: var(--text-subtle); line-height: 1.5; background-color: var(--bg-base); padding: 0.85rem 1rem; border-radius: var(--radius-md); display: flex; align-items: center; gap: 8px;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; color: var(--color-secondary);"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg>
-            <span><em>Model assumptions: Standard 3.5x enterprise pipeline coverage requirement and +12% win-rate uplift via MEDDPICC value engineering.</em></span>
-          </div>
-        </div>
-
-        <!-- Real-Time Calculation Results -->
-        <div class="calc-results-card">
-          <div class="calc-result-row">
-            <span class="calc-res-label">Deals Needed to Hit Quota:</span>
-            <span class="calc-res-val" id="dealsNeededVal">10 Deals</span>
-          </div>
-
-          <div class="calc-result-row">
-            <span class="calc-res-label">Required Pipeline Coverage:</span>
-            <span class="calc-res-val" id="pipelineReqVal">$17,500,000</span>
-          </div>
-
-          <div class="calc-result-row">
-            <span class="calc-res-label">Uplifted Win Rate (Value Selling):</span>
-            <span class="calc-res-val" style="color: var(--color-secondary);" id="newWinRateVal">37%</span>
-          </div>
-
-          <div class="calc-result-row" style="background-color: var(--bg-card); padding: 1.25rem; border-radius: var(--radius-md); border: 1.5px solid var(--color-secondary-border);">
-            <div>
-              <span class="calc-res-label" style="display: block; font-weight: 700; color: var(--text-ink);">Projected Incremental ARR:</span>
-              <span style="font-size: 0.75rem; color: var(--text-subtle);">Additional revenue delivered</span>
-            </div>
-            <span class="calc-res-val highlight" id="incrementalArrVal">+$2,100,000</span>
-          </div>
-
-          <a href="#contact" class="btn btn-secondary btn-sm" style="width: 100%; margin-top: 0.5rem;">
-            Discuss Hiring &amp; Territory Strategy
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Career Milestones & Performance Track Record -->
-  <section class="timeline-section" id="experience">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Verified Career Trajectory</span>
-        <h2 class="section-title">A Proven History of Continuous Over-Achievement</h2>
-        <p class="section-desc">
-          Progression from high-volume outbound SDR to Strategic Enterprise Director leading 8-figure revenue quotas.
-        </p>
-      </div>
-
-      <div class="timeline-list">
-        <!-- Milestone 1 -->
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <div class="timeline-header">
               <div>
-                <div class="timeline-role">Strategic Enterprise Director</div>
-                <div class="timeline-company">DataFlow Infrastructure (Enterprise SaaS)</div>
+                <h4>Approach</h4>
+                <p>Mapped 14 executives, won the enterprise architecture lead as champion and built a TCO model showing
+                  $19.4M in hard savings.</p>
               </div>
-              <span class="timeline-period">2023 — Present</span>
+              <div>
+                <h4>Result</h4>
+                <p>Declined a 25% discount in exchange for a three-year commitment with annual upfront billing. Added
+                  $950K in year two.</p>
+              </div>
             </div>
-            <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
-              Spearheading Tier-1 strategic enterprise accounts (Fortune 500) with a $6.0M annual net-new ARR quota across financial services, healthtech, and logistics.
-            </p>
-            <ul class="timeline-highlights">
-              <li class="timeline-highlight-item">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Delivered 168% of FY24 quota ($10.1M closed ARR), finishing as #1 Global Enterprise AE.
-              </li>
-              <li class="timeline-highlight-item">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Orchestrated the company's largest single transaction in history ($4.2M 3-year contract).
-              </li>
-              <li class="timeline-highlight-item">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Mentored 6 Enterprise AEs on MEDDPICC qualification and C-level executive positioning.
-              </li>
+          </details>
+          <details>
+            <summary><span class="who">Fortune 100 hospital network<small>Healthcare · land and
+                  expand</small></span><span class="acv">$2.8M</span><span class="cyc">8 months</span></summary>
+            <div class="detail">
+              <div>
+                <h4>Challenge</h4>
+                <p>A $140K pilot inside a system struggling with fragmented records and clinician burnout.</p>
+              </div>
+              <div>
+                <h4>Approach</h4>
+                <p>Co-wrote a value memo with the CMIO and cleared SOC 2 and HIPAA reviews in parallel with the
+                  commercial talks.</p>
+              </div>
+              <div>
+                <h4>Result</h4>
+                <p>Grew from 500 seats to 12,000 clinicians across 14 campuses, with 135% net retention.</p>
+              </div>
+            </div>
+          </details>
+          <details>
+            <summary><span class="who">Global fleet telematics company<small>Logistics · multi-year
+                  SaaS</small></span><span class="acv">$3.6M</span><span class="cyc">13 months</span></summary>
+            <div class="detail">
+              <div>
+                <h4>Challenge</h4>
+                <p>A procurement process stalled for nine months as budgets shifted elsewhere.</p>
+              </div>
+              <div>
+                <h4>Approach</h4>
+                <p>Went to the COO, reframed the project as margin protection and built a routing model showing $9.2M in
+                  savings.</p>
+              </div>
+              <div>
+                <h4>Result</h4>
+                <p>Signed a 36-month non-cancelable contract at 0% discount. Payback validated at 6.8 months.</p>
+              </div>
+            </div>
+          </details>
+          <details>
+            <summary><span class="who">Decacorn payments platform<small>Fintech · competitive
+                  bake-off</small></span><span class="acv">$1.8M</span><span class="cyc">45 days</span></summary>
+            <div class="detail">
+              <div>
+                <h4>Challenge</h4>
+                <p>An incumbent was buying the account with steep introductory pricing.</p>
+              </div>
+              <div>
+                <h4>Approach</h4>
+                <p>Stood up a live sandbox in 48 hours and tested under Black Friday load with the VP of Engineering.
+                </p>
+              </div>
+              <div>
+                <h4>Result</h4>
+                <p>42% lower latency, a unanimous technical vote and signature 45 days from discovery.</p>
+              </div>
+            </div>
+          </details>
+          <details>
+            <summary><span class="who">Defense contractor<small>Cybersecurity · net-new logo</small></span><span
+                class="acv">$2.1M</span><span class="cyc">9 months</span></summary>
+            <div class="detail">
+              <div>
+                <h4>Challenge</h4>
+                <p>FedRAMP High, CMMC Level 3 and export-control checks, all before a first purchase order.</p>
+              </div>
+              <div>
+                <h4>Approach</h4>
+                <p>Led an eight-person deal team through the security walkthroughs and connected both engineering
+                  leaderships.</p>
+              </div>
+              <div>
+                <h4>Result</h4>
+                <p>No redline exceptions, a three-year deployment and annual invoicing paid upfront.</p>
+              </div>
+            </div>
+          </details>
+          <details>
+            <summary><span class="who">Global retail group<small>Retail · AI personalization</small></span><span
+                class="acv">$1.5M</span><span class="cyc">7 months</span></summary>
+            <div class="detail">
+              <div>
+                <h4>Challenge</h4>
+                <p>High cart abandonment across 2,400 storefronts and a live build-versus-buy debate.</p>
+              </div>
+              <div>
+                <h4>Approach</h4>
+                <p>Presented to the board strategy committee and priced the hidden $8.5M cost of building in-house.</p>
+              </div>
+              <div>
+                <h4>Result</h4>
+                <p>Three-year contract with a 4.8% lift in checkout rate across every storefront.</p>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="method" class="alt">
+      <div class="wrap">
+        <h2>How I run a deal</h2>
+        <p class="sub">Forecasts are only as good as the evidence behind them. Three habits keep mine honest.</p>
+        <div class="three">
+          <div>
+            <h3>Qualify weekly</h3>
+            <p>Every opportunity is checked against MEDDPICC each week: metrics, economic buyer, criteria, process,
+              paper, pain, champion and competition.</p>
+            <ul>
+              <li>Named economic buyer</li>
+              <li>Quantified pain</li>
+              <li>Zero forecast slippage for eight quarters</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Plan it together</h3>
+            <p>A mutual action plan turns “us selling to them” into a shared project with dates, owners and legal
+              timelines agreed up front.</p>
+            <ul>
+              <li>Security review runs in parallel</li>
+              <li>Redline turnarounds scheduled</li>
+              <li>10+ stakeholders mapped per account</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Defend the price</h3>
+            <p>I build the financial case before the proposal. If procurement wants concessions, I trade for term,
+              upfront payment or a case study, never for list price.</p>
+            <ul>
+              <li>Payback under nine months</li>
+              <li>No discount on 85% of deals</li>
+              <li>135% net revenue retention</li>
             </ul>
           </div>
         </div>
-
-        <!-- Milestone 2 -->
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <div class="timeline-header">
-              <div>
-                <div class="timeline-role">Senior Enterprise Account Executive</div>
-                <div class="timeline-company">CloudGuard Technologies (Cybersecurity)</div>
-              </div>
-              <span class="timeline-period">2020 — 2023</span>
-            </div>
-            <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
-              Owned greenfield and expansion enterprise territory across East Coast and EMEA. Grew book of business from $2.1M to $19.8M ARR over a 3-year tenure.
-            </p>
-            <ul class="timeline-highlights">
-              <li class="timeline-highlight-item">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Achieved 152% average quota attainment over 3 consecutive years; 3x President's Club awardee.
-              </li>
-              <li class="timeline-highlight-item">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Closed 14 Fortune 500 enterprise logos with an average contract value (ACV) of $1.2M.
-              </li>
-              <li class="timeline-highlight-item">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Built the corporate sales playbook for navigating SOC2 / FedRAMP procurement approvals.
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Milestone 3 -->
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <div class="timeline-header">
-              <div>
-                <div class="timeline-role">Enterprise Account Executive</div>
-                <div class="timeline-company">ScaleMetrics (B2B Analytics)</div>
-              </div>
-              <span class="timeline-period">2017 — 2020</span>
-            </div>
-            <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
-              Promoted from mid-market to enterprise after delivering 178% of commercial quota. Focused on Series C through public company software transitions.
-            </p>
-            <ul class="timeline-highlights">
-              <li class="timeline-highlight-item">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Closed $11.5M in cumulative SaaS contract value; average deal cycle of 6.2 months.
-              </li>
-              <li class="timeline-highlight-item">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                Established repeatable land-and-expand sales cadence yielding 138% Net Expansion.
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Milestone 4 -->
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-card">
-            <div class="timeline-header">
-              <div>
-                <div class="timeline-role">Commercial AE &amp; Senior Outbound SDR</div>
-                <div class="timeline-company">Nexus Cloud Systems</div>
-              </div>
-              <span class="timeline-period">2015 — 2017</span>
-            </div>
-            <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
-              Started career in frontline cold outbound prospecting. Promoted to Commercial AE in 9 months after generating 185% of target qualified enterprise pipeline.
-            </p>
-          </div>
-        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Executive Endorsements / Testimonials with Real Avatars -->
-  <section class="testimonials-section" id="endorsements">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Executive References</span>
-        <h2 class="section-title">What Revenue Leaders &amp; Enterprise Champions Say</h2>
-        <p class="section-desc">
-          Feedback from Chief Revenue Officers, VP of Sales Engineering partners, and enterprise customer buyers.
-        </p>
-      </div>
-
-      <div class="testimonials-grid">
-        <!-- Testimonial 1 -->
-        <div class="testimonial-card">
+    <section id="career">
+      <div class="wrap">
+        <h2>Career</h2>
+        <p class="sub">From 90 cold calls a day to leading eight-figure territories.</p>
+        <div class="job"><time>2023 – now</time>
           <div>
-            <div class="quote-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
-            </div>
-            <p class="quote-text">
-              "Ashley is in the top 1% of enterprise sales professionals I have managed in my 20-year career. What sets Ashley apart is boardroom credibility: Ashley can speak fluent ROI to a Fortune 50 CFO, then pivot seamlessly to an architecture discussion with a VP of Infrastructure. Ashley closed our largest contract with zero discounting."
-            </p>
-          </div>
-          <div class="quote-author">
-            <img src="assets/images/avatar-michael.jpg" alt="Marcus Reynolds" class="author-avatar-img">
-            <div>
-              <div class="author-name">Marcus Reynolds</div>
-              <div class="author-role">Chief Revenue Officer (CRO), DataFlow Infrastructure</div>
-            </div>
+            <h3>Strategic Enterprise Director</h3>
+            <div class="co">DataFlow Infrastructure</div>
+            <p>168% of FY24 quota ($10.1M closed), the #1 global enterprise rep, and the company’s largest deal to date.
+              Mentoring six AEs.</p>
           </div>
         </div>
-
-        <!-- Testimonial 2 -->
-        <div class="testimonial-card">
+        <div class="job"><time>2020 – 2023</time>
           <div>
-            <div class="quote-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
-            </div>
-            <p class="quote-text">
-              "Most enterprise software salespeople try to force-feed you a slide deck. Ashley took the time to truly understand our bank’s complex compliance and multi-cloud latency bottlenecks. Ashley worked shoulder-to-shoulder with our procurement team for 11 months without ever losing patience or momentum."
-            </p>
-          </div>
-          <div class="quote-author">
-            <img src="assets/images/avatar-sarah.jpg" alt="Sarah Thornton" class="author-avatar-img">
-            <div>
-              <div class="author-name">Sarah Thornton</div>
-              <div class="author-role">Managing Director &amp; CIO, Global Banking Group (Customer)</div>
-            </div>
+            <h3>Senior Enterprise Account Executive</h3>
+            <div class="co">CloudGuard Technologies</div>
+            <p>Grew a territory from $2.1M to $19.8M ARR, closed 14 Fortune 500 logos and earned President’s Club three
+              years running.</p>
           </div>
         </div>
-
-        <!-- Testimonial 3 -->
-        <div class="testimonial-card">
+        <div class="job"><time>2017 – 2020</time>
           <div>
-            <div class="quote-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
-            </div>
-            <p class="quote-text">
-              "As a VP of Sales Engineering, Ashley is the dream sales partner. Ashley qualifies deals with unmatched discipline before looping in technical resources. When we walked into a proof-of-concept with Ashley, we already had the decision criteria locked in and our champion identified. A genuine master of the craft."
-            </p>
+            <h3>Enterprise Account Executive</h3>
+            <div class="co">ScaleMetrics</div>
+            <p>Promoted from mid-market after 178% attainment. Closed $11.5M with a 138% net expansion rate.</p>
           </div>
-          <div class="quote-author">
-            <img src="assets/images/avatar-emily.jpg" alt="David Kostas" class="author-avatar-img">
-            <div>
-              <div class="author-name">David Kostas</div>
-              <div class="author-role">VP of Global Sales Engineering, CloudGuard Tech</div>
-            </div>
+        </div>
+        <div class="job"><time>2015 – 2017</time>
+          <div>
+            <h3>Commercial AE and Senior SDR</h3>
+            <div class="co">Nexus Cloud Systems</div>
+            <p>Started in cold outbound. Moved to AE in nine months after sourcing 185% of pipeline target.</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Interactive Contact / Meeting Scheduler -->
-  <section class="contact-section" id="contact">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Initiate Conversation</span>
-        <h2 class="section-title">Schedule a 20-Minute Revenue Consultation</h2>
-        <p class="section-desc">
-          Open to evaluating select Strategic Enterprise AE, Director of Strategic Accounts, or VP of Sales positions with high-growth Series B+ through public SaaS companies.
-        </p>
-      </div>
-
-      <div class="contact-grid">
-        <!-- Direct Contact Cards -->
-        <div class="contact-info-card">
-          <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border-light);">
-            <img src="assets/images/ashley-miller.jpg" alt="Ashley Miller" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-secondary);">
-            <div>
-              <h3 style="font-size: 1.2rem; font-weight: 800; color: var(--text-ink); line-height: 1.2;">Connect With Ashley</h3>
-              <span style="font-size: 0.8125rem; color: var(--color-secondary); font-weight: 700;">Direct Executive Channel</span>
-            </div>
-          </div>
-
-          <div class="info-item">
-            <div class="info-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                <polyline points="22,6 12,13 2,6"></polyline>
-              </svg>
-            </div>
-            <div>
-              <div class="info-title">Executive Email</div>
-              <div class="info-val">ashley.miller.sales@enterprise.io</div>
-              <div style="font-size: 0.75rem; color: var(--color-secondary); font-weight: 700; margin-top: 0.2rem; display: flex; align-items: center; gap: 4px;">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Guaranteed response within 4 hours</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="info-item">
-            <div class="info-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                <rect x="2" y="9" width="4" height="12"></rect>
-                <circle cx="4" cy="4" r="2"></circle>
-              </svg>
-            </div>
-            <div>
-              <div class="info-title">LinkedIn Profile</div>
-              <div class="info-val">linkedin.com/in/ashley-miller-sales</div>
-              <div style="font-size: 0.75rem; color: var(--text-subtle); margin-top: 0.2rem;">500+ Executive Endorsements</div>
-            </div>
-          </div>
-
-          <div class="info-item">
-            <div class="info-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                <circle cx="12" cy="10" r="3"></circle>
-              </svg>
-            </div>
-            <div>
-              <div class="info-title">Location &amp; Mobility</div>
-              <div class="info-val">San Francisco, CA / New York, NY</div>
-              <div style="font-size: 0.75rem; color: var(--text-subtle); margin-top: 0.2rem;">Open to Remote or Hybrid Roles with 30% Travel</div>
-            </div>
-          </div>
-
-          <div style="background-color: var(--bg-base); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-light); margin-top: 1rem;">
-            <div style="font-size: 0.8125rem; font-weight: 700; color: var(--text-ink); margin-bottom: 0.25rem;">Download Confidential Deal Sheet</div>
-            <p style="font-size: 0.75rem; color: var(--text-subtle); margin-bottom: 0.75rem;">Full breakdown of closed accounts, customer references, and W2 quota verifications.</p>
-            <a href="assets/images/og-image.png" download="Ashley-Miller-Sales-Overview.png" class="btn btn-outline btn-sm" style="width: 100%;">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-              Download Executive Summary (PNG)
-            </a>
-          </div>
-        </div>
-
-        <!-- Contact Form -->
-        <div class="contact-form-card">
-          <form id="salesContactForm" novalidate>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="contactName" class="form-label">Full Name *</label>
-                <input type="text" id="contactName" class="form-input" placeholder="Sarah Connor" required>
-              </div>
-              <div class="form-group">
-                <label for="contactEmail" class="form-label">Work Email *</label>
-                <input type="email" id="contactEmail" class="form-input" placeholder="sarah@enterprise.com" required>
-              </div>
-            </div>
-
-            <div class="form-row">
-              <div class="form-group">
-                <label for="contactCompany" class="form-label">Company / Organization *</label>
-                <input type="text" id="contactCompany" class="form-input" placeholder="Stripe / Datadog / Acme Corp" required>
-              </div>
-              <div class="form-group">
-                <label for="contactTopic" class="form-label">Opportunity Scope *</label>
-                <select id="contactTopic" class="form-select" required>
-                  <option value="Strategic Enterprise AE Role">Strategic Enterprise AE Role</option>
-                  <option value="VP of Sales / Revenue Leadership">VP of Sales / Revenue Leadership</option>
-                  <option value="Sales Advisory / Consulting">Sales Advisory / Consulting</option>
-                  <option value="Executive Networking / Speaking">Executive Networking / Speaking</option>
-                  <option value="Other Inquiries">Other Inquiries</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label for="contactArr" class="form-label">Territory Target Quota / Stage</label>
-              <select id="contactArr" class="form-select">
-                <option value="$3M - $5M Annual ARR Quota">$3M - $5M Annual ARR Quota</option>
-                <option value="$5M - $10M Annual ARR Quota">$5M - $10M Annual ARR Quota</option>
-                <option value="$10M+ Enterprise Team Quota">$10M+ Enterprise Team Quota</option>
-                <option value="Early-stage 0 to 1 Enterprise Motion">Early-stage 0 to 1 Enterprise Motion</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="contactMessage" class="form-label">Key Requirements / Discussion Notes *</label>
-              <textarea id="contactMessage" class="form-textarea" rows="4" placeholder="Briefly share the territory, stage of product, and team goals..." required></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-secondary" style="width: 100%; padding: 0.95rem;">
-              Send Priority Meeting Request
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="22" y1="2" x2="11" y2="13"></line>
-                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-              </svg>
-            </button>
-          </form>
+    <section id="words" class="alt">
+      <div class="wrap">
+        <h2>What others say</h2>
+        <p class="sub">References are available on request.</p>
+        <div class="quotes">
+          <blockquote>Ashley speaks fluent ROI to a Fortune 50 CFO, then moves straight into an architecture discussion.
+            The largest contract we’ve signed closed with zero discounting.<cite>Marcus Reynolds, Chief Revenue Officer,
+              DataFlow Infrastructure</cite></blockquote>
+          <blockquote>When we walked into the proof of concept with Ashley, the decision criteria were locked and the
+            champion was identified. That discipline is rare.<cite>David Kostas, VP of Sales Engineering,
+              CloudGuard</cite></blockquote>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Interactive Deal Deconstruction Modal -->
-  <div class="modal-overlay" id="dealModal" role="dialog" aria-modal="true" aria-labelledby="modalDealTitle">
-    <div class="modal-content">
-      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
-      
-      <div style="display: inline-block; padding: 0.25rem 0.75rem; background-color: var(--bg-accent-subtle); color: var(--color-secondary); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; border-radius: var(--radius-full); margin-bottom: 0.75rem;" id="modalCategory">
-        Category
-      </div>
-      
-      <h2 id="modalDealTitle" style="font-size: 1.85rem; font-weight: 800; color: var(--text-ink); margin-bottom: 0.5rem;">
-        Deal Title
-      </h2>
-
-      <div style="display: flex; gap: 1rem; align-items: baseline; margin-bottom: 1.5rem;">
-        <span id="modalAcv" style="font-size: 2rem; font-weight: 800; color: var(--color-secondary);">$4.2M</span>
-        <span id="modalTerms" style="font-size: 0.9rem; font-weight: 600; color: var(--text-subtle);">3-Year Enterprise Contract</span>
-      </div>
-
-      <div style="border-top: 1px solid var(--border-light); padding-top: 1.5rem; margin-bottom: 1.5rem;">
-        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: var(--color-secondary); margin-bottom: 0.5rem;">The Challenge &amp; Account Landscape</h4>
-        <p id="modalChallenge" style="font-size: 0.925rem; color: var(--text-muted); line-height: 1.6;">
-          Detailed challenge explanation.
-        </p>
-      </div>
-
-      <div style="background-color: var(--bg-base); border-radius: var(--radius-md); padding: 1.25rem; border: 1px solid var(--border-light); margin-bottom: 1.5rem;">
-        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: var(--text-ink); margin-bottom: 0.5rem;">Stakeholder Alignment &amp; Champion Mobilization</h4>
-        <p id="modalStakeholders" style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
-          Stakeholder map breakdown.
-        </p>
-      </div>
-
-      <div style="border-top: 1px solid var(--border-light); padding-top: 1.5rem; margin-bottom: 1.5rem;">
-        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: var(--color-secondary); margin-bottom: 0.5rem;">Closing Strategy &amp; Margin Defense</h4>
-        <p id="modalClosing" style="font-size: 0.925rem; color: var(--text-muted); line-height: 1.6;">
-          Closing strategy description.
-        </p>
-      </div>
-
-      <div style="background-color: var(--bg-accent-subtle); border-radius: var(--radius-md); padding: 1.25rem; border: 1px solid var(--color-secondary-border);">
-        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: var(--color-secondary-dark); margin-bottom: 0.25rem;">Validated Business Outcome</h4>
-        <p id="modalOutcome" style="font-size: 0.925rem; font-weight: 600; color: var(--text-ink); line-height: 1.5;">
-          Outcomes.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Toast Notification -->
-  <div class="toast-notification" id="toastNotification" role="alert" aria-live="assertive">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="20 6 9 17 4 12"></polyline>
-    </svg>
-    <span id="toastMessage">Meeting request received! I will reply within 4 hours.</span>
-  </div>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <!-- Brand Summary with Ashley's portrait -->
-        <div>
-          <div class="footer-brand-title">
-            <img src="assets/images/ashley-miller.jpg" alt="Ashley Miller" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-secondary);">
-            <span>Ashley Miller</span>
-          </div>
-          <p class="footer-brand-desc">
-            Strategic Enterprise Sales Leader &amp; Account Director. Specializing in 7-figure contract execution, MEDDPICC qualification, and building repeatable ARR engines.
-          </p>
-        </div>
-
-        <!-- Direct Anchor Links -->
-        <div>
-          <h4 class="footer-heading">Executive Sections</h4>
-          <ul class="footer-links">
-            <li><a href="#about" class="footer-link">About Ashley &amp; Story</a></li>
-            <li><a href="#metrics" class="footer-link">Track Record &amp; Metrics</a></li>
-            <li><a href="#deals" class="footer-link">Closed Deal Deconstructions</a></li>
-            <li><a href="#methodology" class="footer-link">MEDDPICC Sales Playbook</a></li>
-            <li><a href="#calculator" class="footer-link">Revenue ROI Simulator</a></li>
-          </ul>
-        </div>
-
-        <!-- Direct Contact & Connect -->
-        <div>
-          <h4 class="footer-heading">Direct Channels</h4>
-          <ul class="footer-links">
-            <li><a href="mailto:ashley.miller.sales@enterprise.io" class="footer-link">ashley.miller.sales@enterprise.io</a></li>
-            <li><a href="#contact" class="footer-link">Schedule 20-Min Call</a></li>
-            <li><a href="https://linkedin.com" target="_blank" rel="noopener" class="footer-link">LinkedIn Profile (500+ Conn.)</a></li>
-            <li><a href="site.webmanifest" class="footer-link">Web App Manifest</a></li>
-          </ul>
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <h2>Let’s talk for 20 minutes</h2>
+        <p class="sub">I’m looking at strategic enterprise AE, strategic accounts director and VP of Sales roles at
+          Series B through public SaaS companies. I reply within a day.</p>
+        <a class="mail" href="mailto:ashley.miller.sales@enterprise.io">ashley.miller.sales@enterprise.io</a>
+        <div class="cta">
+          <a class="btn" href="mailto:ashley.miller.sales@enterprise.io?subject=20-minute%20call">Email Ashley</a>
+          <a class="btn ghost" href="https://linkedin.com/in/ashley-miller-sales" target="_blank"
+            rel="noopener">LinkedIn</a>
         </div>
       </div>
+    </section>
+  </main>
 
-      <div class="footer-bottom">
-        <div>&copy; 2026 Ashley Miller. All rights reserved. Enterprise Sales &amp; Revenue Leadership.</div>
-        <div style="display: flex; gap: 1.5rem;">
-          <a href="#hero" style="color: #A8A29E; transition: color var(--transition-fast);">Back to top ↑</a>
-        </div>
-      </div>
-    </div>
+  <footer>
+    <div class="wrap"><span>© 2026 Ashley Miller</span><a href="#top">Back to top</a></div>
   </footer>
-
-  <!-- Interactive JavaScript -->
   <script>
-    // 1. Mobile Menu Drawer Toggle
-    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-    const closeDrawerBtn = document.getElementById('closeDrawerBtn');
-    const mobileDrawer = document.getElementById('mobileDrawer');
-    const drawerBackdrop = document.getElementById('drawerBackdrop');
-    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
-
-    function openDrawer() {
-      mobileDrawer.classList.add('open');
-      drawerBackdrop.classList.add('open');
-      document.body.style.overflow = 'hidden';
-    }
-
-    function closeDrawer() {
-      mobileDrawer.classList.remove('open');
-      drawerBackdrop.classList.remove('open');
-      document.body.style.overflow = '';
-    }
-
-    if (mobileMenuBtn) mobileMenuBtn.addEventListener('click', openDrawer);
-    if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', closeDrawer);
-    if (drawerBackdrop) drawerBackdrop.addEventListener('click', closeDrawer);
-    mobileNavLinks.forEach(link => link.addEventListener('click', closeDrawer));
-
-    // 2. Email Copy Chip
-    const copyEmailChip = document.getElementById('copyEmailChip');
-    const copyStatusText = document.getElementById('copyStatusText');
-
-    if (copyEmailChip) {
-      copyEmailChip.addEventListener('click', () => {
-        const email = 'ashley.miller.sales@enterprise.io';
-        navigator.clipboard.writeText(email).then(() => {
-          copyStatusText.textContent = 'Copied!';
-          copyStatusText.style.color = '#10B981';
-          showToast('Email copied to clipboard: ' + email);
-          setTimeout(() => {
-            copyStatusText.textContent = 'Copy';
-            copyStatusText.style.color = '';
-          }, 2500);
-        }).catch(() => {
-          showToast('Email: ' + email);
-        });
-      });
-    }
-
-    // 3. Audio Voice Note Simulator
-    const playAudioBtn = document.getElementById('playAudioBtn');
-    const audioPlayerBox = document.getElementById('audioPlayerBox');
-    const playIconSvg = document.getElementById('playIconSvg');
-    const pauseIconSvg = document.getElementById('pauseIconSvg');
-    const audioTimeLabel = document.getElementById('audioTimeLabel');
-    let isPlayingAudio = false;
-    let audioTimer = null;
-    let elapsedSeconds = 0;
-    const totalDuration = 58;
-
-    if (playAudioBtn) {
-      playAudioBtn.addEventListener('click', () => {
-        isPlayingAudio = !isPlayingAudio;
-        if (isPlayingAudio) {
-          audioPlayerBox.classList.add('playing');
-          playIconSvg.style.display = 'none';
-          pauseIconSvg.style.display = 'block';
-
-          audioTimer = setInterval(() => {
-            elapsedSeconds++;
-            if (elapsedSeconds >= totalDuration) {
-              elapsedSeconds = 0;
-              isPlayingAudio = false;
-              audioPlayerBox.classList.remove('playing');
-              playIconSvg.style.display = 'block';
-              pauseIconSvg.style.display = 'none';
-              clearInterval(audioTimer);
-            }
-            const mins = Math.floor(elapsedSeconds / 60);
-            const secs = (elapsedSeconds % 60).toString().padStart(2, '0');
-            audioTimeLabel.textContent = mins + ':' + secs + ' / 0:58';
-          }, 1000);
-          showToast('Playing Ashley’s 60-second executive audio note');
-        } else {
-          audioPlayerBox.classList.remove('playing');
-          playIconSvg.style.display = 'block';
-          pauseIconSvg.style.display = 'none';
-          clearInterval(audioTimer);
-        }
-      });
-    }
-
-    // 4. Category Filter for Deal Case Studies
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const dealCards = document.querySelectorAll('.deal-card');
-
-    filterBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        const filterValue = btn.getAttribute('data-filter');
-
-        dealCards.forEach(card => {
-          if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
-            card.style.display = 'flex';
-          } else {
-            card.style.display = 'none';
-          }
-        });
-      });
-    });
-
-    // 5. Deal Deconstruction Modal Data & Handler
-    const dealData = {
-      "1": {
-        category: "Global FinTech & Banking",
-        title: "Global Tier-1 Investment Bank",
-        acv: "$4.2M",
-        terms: "3-Year Cloud Migration & Core Infrastructure",
-        challenge: "The bank operated 18 legacy mainframe datacenters costing $42M annually in maintenance. An 8-year incumbent held the account, but executive pressure to meet modern zero-latency regulatory mandates created an opening.",
-        stakeholders: "Mapped 14 key executives: Global Head of Fixed Income (Economic Buyer), Chief Information Security Officer (CISO), Managing Director of Enterprise Architecture (Champion), and Head of Global Procurement.",
-        closing: "Developed a granular Total Cost of Ownership (TCO) model proving $19.4M in 3-year hard savings. Refused an initial 25% discount request from procurement by negotiating a 3-year multi-region commitment with annual upfront billing.",
-        outcome: "Displaced the legacy provider, achieved 100% on-time deployment, and secured an additional $950K year-two expansion for secondary trading units."
-      },
-      "2": {
-        category: "Healthcare & Life Sciences",
-        title: "Fortune 100 Hospital Network",
-        acv: "$2.8M",
-        terms: "Enterprise Land-and-Expand across 14 Campuses",
-        challenge: "Started with a modest $140K departmental pilot for clinical data ingestion. The hospital system suffered from HIPAA data fragmentation and severe clinical burnout due to inefficient patient record retrieval.",
-        stakeholders: "Co-authored a joint value realization memo with the Chief Medical Information Officer (CMIO - Champion) and secured executive sign-off from the Chief Financial Officer (CFO - Economic Buyer) and Infosec Risk Committee.",
-        closing: "Conducted weekly sprint reviews to pre-clear all Business Associate Agreements (BAA) and SOC2 Type II requirements. Avoided RFP displacement by structuring an enterprise master subscription agreement with phased rollout milestones.",
-        outcome: "Expanded from 500 initial seats to 12,000 clinicians across 14 hospital campuses, achieving a 135% Net Retention Rate."
-      },
-      "3": {
-        category: "Global Logistics & Telematics",
-        title: "Global Fleet Telematics Giant",
-        acv: "$3.6M",
-        terms: "Multi-Year Real-Time SaaS Architecture",
-        challenge: "A 9-month procurement stall threatened the evaluation as competing budget priorities arose in the client's international logistics division.",
-        stakeholders: "Directly engaged the Chief Operating Officer (COO) and VP of Supply Chain. Realigned the project from an 'IT cost line' into a critical margin-preservation initiative.",
-        closing: "Created an interactive fuel and routing efficiency ROI calculator that demonstrated $9.2M in guaranteed route optimization savings. Established a binding Mutual Action Plan that expedited legal redlining in 12 days.",
-        outcome: "Signed a 36-month non-cancelable enterprise contract at 0% discount, preserving 100% gross margin for our organization."
-      },
-      "4": {
-        category: "FinTech API Platform",
-        title: "Decacorn Payments Platform",
-        acv: "$1.8M",
-        terms: "Annual Recurring Revenue (ARR)",
-        challenge: "A high-velocity competitive bake-off against an aggressive incumbent offering steep introductory pricing discounts to block our entry.",
-        stakeholders: "Partnered closely with the VP of Engineering and Lead Staff Architect. Coordinated our Sales Engineering team to deploy a live sandbox environment in 48 hours.",
-        closing: "Demonstrated a 42% latency reduction under peak Black Friday load testing. Defended our premium pricing by quantifying the cost of downtime ($180K/minute) and proving our 99.999% SLA resilience.",
-        outcome: "Won unanimous technical evaluation vote and closed the deal in 45 days from discovery to signature."
-      },
-      "5": {
-        category: "Cybersecurity & SecOps",
-        title: "Defense Contractor Infrastructure",
-        acv: "$2.1M",
-        terms: "Net-New Enterprise Multi-Year Logo",
-        challenge: "Strict governmental defense procurement requiring FedRAMP High baseline, CMMC Level 3 certification, and complex export control verifications.",
-        stakeholders: "Orchestrated an 8-person cross-functional deal team (Security Architect, General Counsel, Chief Information Security Officer, VP Sales Engineering) to coordinate with government defense reviewers.",
-        closing: "Conducted security clearance walkthroughs with zero redline exceptions. Built an executive alignment bridge between our engineering leadership and the contractor's Board of Directors.",
-        outcome: "Secured a 3-year foundational enterprise deployment with 100% upfront annual invoicing."
-      },
-      "6": {
-        category: "Retail Omni-Channel",
-        title: "Global Retail Conglomerate",
-        acv: "$1.5M",
-        terms: "AI Personalization & Recommendation Engine",
-        challenge: "High cart abandonment across 2,400 e-commerce storefronts and fierce internal debate between building in-house versus buying enterprise SaaS.",
-        stakeholders: "Presented directly to the Board Strategy Committee alongside the Chief Digital Officer (CDO) and Chief Marketing Officer (CMO).",
-        closing: "Deconstructed the hidden $8.5M ongoing maintenance and engineering cost of an in-house build. Proved our solution pays for itself within 90 days of rollout.",
-        outcome: "Closed 3-year contract delivering +4.8% cart checkout improvement across all 2,400 digital storefronts."
-      }
-    };
-
-    const dealModal = document.getElementById('dealModal');
-    const modalCloseBtn = document.getElementById('modalCloseBtn');
-    const viewDealBtns = document.querySelectorAll('.view-deal-btn');
-
-    viewDealBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const dealId = btn.getAttribute('data-deal');
-        const data = dealData[dealId];
-        if (data) {
-          document.getElementById('modalCategory').textContent = data.category;
-          document.getElementById('modalDealTitle').textContent = data.title;
-          document.getElementById('modalAcv').textContent = data.acv;
-          document.getElementById('modalTerms').textContent = data.terms;
-          document.getElementById('modalChallenge').textContent = data.challenge;
-          document.getElementById('modalStakeholders').textContent = data.stakeholders;
-          document.getElementById('modalClosing').textContent = data.closing;
-          document.getElementById('modalOutcome').textContent = data.outcome;
-
-          dealModal.classList.add('open');
-          document.body.style.overflow = 'hidden';
-        }
-      });
-    });
-
-    function closeDealModal() {
-      dealModal.classList.remove('open');
-      document.body.style.overflow = '';
-    }
-
-    if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeDealModal);
-    if (dealModal) {
-      dealModal.addEventListener('click', (e) => {
-        if (e.target === dealModal) closeDealModal();
-      });
-    }
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && dealModal.classList.contains('open')) {
-        closeDealModal();
-      }
-    });
-
-    // 6. Methodology Tabs
-    const methodTabs = document.querySelectorAll('.methodology-tab');
-    const methodPanels = document.querySelectorAll('.methodology-panel');
-
-    methodTabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        methodTabs.forEach(t => t.classList.remove('active'));
-        methodPanels.forEach(p => p.classList.remove('active'));
-
-        tab.classList.add('active');
-        const tabKey = tab.getAttribute('data-tab');
-        const targetPanel = document.getElementById('tab-' + tabKey);
-        if (targetPanel) {
-          targetPanel.classList.add('active');
-        }
-      });
-    });
-
-    // 7. Interactive Revenue ROI Calculator
-    const quotaSlider = document.getElementById('quotaSlider');
-    const acvSlider = document.getElementById('acvSlider');
-    const winRateSlider = document.getElementById('winRateSlider');
-
-    const quotaValDisplay = document.getElementById('quotaValDisplay');
-    const acvValDisplay = document.getElementById('acvValDisplay');
-    const winRateDisplay = document.getElementById('winRateDisplay');
-
-    const dealsNeededVal = document.getElementById('dealsNeededVal');
-    const pipelineReqVal = document.getElementById('pipelineReqVal');
-    const newWinRateVal = document.getElementById('newWinRateVal');
-    const incrementalArrVal = document.getElementById('incrementalArrVal');
-
-    function formatCurrency(val) {
-      return '$' + Number(val).toLocaleString();
-    }
-
-    function recalculateRevenue() {
-      const quota = parseFloat(quotaSlider.value);
-      const acv = parseFloat(acvSlider.value);
-      const baseWinRate = parseFloat(winRateSlider.value);
-
-      quotaValDisplay.textContent = formatCurrency(quota);
-      acvValDisplay.textContent = formatCurrency(acv);
-      winRateDisplay.textContent = baseWinRate + '%';
-
-      // Deals needed
-      const dealsNeeded = Math.ceil(quota / acv);
-      dealsNeededVal.textContent = dealsNeeded + ' Deals';
-
-      // Pipeline coverage requirement (3.5x standard)
-      const pipelineReq = quota * 3.5;
-      pipelineReqVal.textContent = formatCurrency(pipelineReq);
-
-      // Value selling uplift (+12% absolute win rate improvement)
-      const upliftedWinRate = Math.min(baseWinRate + 12, 65);
-      newWinRateVal.textContent = upliftedWinRate + '%';
-
-      // Incremental ARR: Added win rate delta applied to target pipeline
-      const baseExpectedWinsValue = pipelineReq * (baseWinRate / 100);
-      const upliftedExpectedWinsValue = pipelineReq * (upliftedWinRate / 100);
-      const incrementalGain = Math.round(upliftedExpectedWinsValue - baseExpectedWinsValue);
-
-      incrementalArrVal.textContent = '+' + formatCurrency(incrementalGain);
-    }
-
-    if (quotaSlider && acvSlider && winRateSlider) {
-      quotaSlider.addEventListener('input', recalculateRevenue);
-      acvSlider.addEventListener('input', recalculateRevenue);
-      winRateSlider.addEventListener('input', recalculateRevenue);
-      recalculateRevenue();
-    }
-
-    // 8. Contact Form Handling & Validation
-    const salesContactForm = document.getElementById('salesContactForm');
-    const toastNotification = document.getElementById('toastNotification');
-    const toastMessage = document.getElementById('toastMessage');
-
-    function showToast(msg) {
-      if (toastNotification && toastMessage) {
-        toastMessage.textContent = msg;
-        toastNotification.classList.add('show');
-        setTimeout(() => {
-          toastNotification.classList.remove('show');
-        }, 4000);
-      }
-    }
-
-    if (salesContactForm) {
-      salesContactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-
-        const name = document.getElementById('contactName').value.trim();
-        const email = document.getElementById('contactEmail').value.trim();
-        const company = document.getElementById('contactCompany').value.trim();
-        const topic = document.getElementById('contactTopic').value;
-
-        if (!name || !email || !company) {
-          showToast('Please fill in your name, work email, and company.');
-          return;
-        }
-
-        const emailPattern = /^[^\s@]+@[^\s@]+$/;
-        if (!emailPattern.test(email)) {
-          showToast('Please enter a valid work email address.');
-          return;
-        }
-
-        showToast('Thank you, ' + name + '! Your consultation request regarding ' + topic + ' has been received. Expect a reply from Ashley within 4 hours.');
-        salesContactForm.reset();
-      });
-    }
-
-    // 9. Smooth Active Navigation Observer
-    const sections = document.querySelectorAll('section[id], header[id]');
-    const navItems = document.querySelectorAll('.nav-link');
-
-    window.addEventListener('scroll', () => {
-      let currentSection = '';
-      const scrollY = window.pageYOffset;
-
-      sections.forEach(section => {
-        const sectionTop = section.offsetTop - 120;
-        const sectionHeight = section.offsetHeight;
-        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-          currentSection = section.getAttribute('id');
-        }
-      });
-
-      navItems.forEach(item => {
-        item.classList.remove('active');
-        if (item.getAttribute('href') === '#' + currentSection) {
-          item.classList.add('active');
-        }
-      });
+    document.getElementById('photoPick').addEventListener('change', function (e) {
+      var f = e.target.files[0]; if (!f) return;
+      var r = new FileReader();
+      r.onload = function () { document.querySelector('.portrait img').src = r.result };
+      r.readAsDataURL(f);
     });
   </script>
 </body>
+
 </html>
