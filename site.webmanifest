@@ -1,0 +1,32 @@
+{
+  "name": "Ashley Miller — Enterprise Sales Leader & Strategic AE",
+  "short_name": "Ashley Miller Sales",
+  "description": "Executive portfolio of Ashley Miller, Enterprise Sales Leader & Strategic Account Executive specializing in 7-figure SaaS contracts, MEDDPICC, and revenue engines.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F5F5F0",
+  "theme_color": "#D97D55",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
+
